@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <title>B&B</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu:wght@300&display=swap" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/builder-styles.css" />
+</head>
+
+<body>
+    <div id="solution">
+        DM Controls/Toggles:
+        <button onclick="diceboxtoggle()"> D20</button>
+        <button onclick="notestoggle()"> Notes</button> |
+        <button onclick="initinjectstoggle() ">Starting Condition</button>
+        <button onclick="injectstoggle()"> Injects</button>
+        <button onclick="consultantstoggle()" id="butconsultants"> Consultants</button> |
+
+
+        <button onclick="solutiontoggle()"> Solution</button>
+        <button onclick="scenariotoggle()">Scenario Tools</button>
+        <div id="dm_solution" style="display:none;">
+            <div class="solution" id="dma">
+                <div class="warn">No Initial Compromise</div>
+            </div>
+            <div class="solution" id="dmb">
+                <div class="warn">No Pivot & Escalate</div>
+            </div>
+            <div class="solution" id="dmc">
+                <div class="warn">No C2 & Exfil</div>
+            </div>
+            <div class="solution" id="dmd">
+                <div class="warn">No Persistence</div>
+            </div>
+        </div>
+        <div id="dm_scenario" style="display:none;">
+            Scenario Tools:
+            <button onClick="rando()">Random</button>
+            <button onClick="customtoggle()">Custom</button> |
+            <button onclick="flipBack()"> Flip Scenario</button>
+            <button onClick='window.location.reload(true)'>Refresh Page</button>
+        </div>
+    </div>
+
+    <div id="builder">
+        Scenario Builder
+        <button onclick="boxtoggle('ic');buildscenemenu('ic');">Initial Compromise</button>
+        <button onclick="boxtoggle('pv');buildscenemenu('pv');">Pivot</button>
+        <button onclick="boxtoggle('c2');buildscenemenu('c2');">C2</button>
+        <button onclick="boxtoggle('ps');buildscenemenu('ps');">Persist</button> |
+        <button onclick="boxtoggle('proc');buildprocmenu();">Procedures</button>
+        <button onclick="boxtoggle('start');buildinjmenu();">Starting Cond</button> |
+        <button onClick="customtoggle()">Close</button>
+        <div id="ic">Inital Compromise</div>
+        <div id="pv">Pivot</div>
+        <div id="c2">C2 & Exfil</div>
+        <div id="ps">Persist</div>
+        <div id="proc">Procedures</div>
+        <div id="start">Starting Condition</div>
+    </div>
+
+    <!-- SCENARIO CARDS -->
+    <header>
+        <h1 tabindex="0" class="title">SCENARIO</h1>
+    </header>
+    <section class="cards">
+        <div class="cards__single">
+            <div class="cards__front">
+                <img src="img/CARD_BACK_2.0_DRAGOS_RED.png">
+            </div>
+            <div class="cards__back">
+                <div class='init' id="a">
+                </div>
+            </div>
+        </div>
+
+        <div class="cards__single">
+            <div class="cards__front">
+                <img src="img/CARD_BACK_2.0_DRAGOS_YELLOW.png">
+            </div>
+            <div class="cards__back">
+                <div class='init' id="b">
+                </div>
+            </div>
+        </div>
+
+        <div class="cards__single">
+            <div class="cards__front">
+                <img src="img/CARD_BACK_2.0_DRAGOS_BROWN.png">
+            </div>
+            <div class="cards__back">
+                <div class='init' id="c">
+                </div>
+            </div>
+        </div>
+
+        <div class="cards__single">
+            <div class="cards__front">
+                <img src="img/CARD_BACK_2.0_DRAGOS_PURPLE.png">
+            </div>
+            <div class="cards__back">
+                <div class='init' id="d">
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <!-- PROCEDURE CARDS -->
+    <header>
+        <h1 tabindex="0" class="title">PROCEDURES</h1>
+    </header>
+
+    Established Procedures:
+    <div class="establishedprocs" id="output"></div>
+    <div style="clear:both; margin-bottom:10px;"></div>
+    Other Procedures:
+    <div class="otherprocs" id="remainder"></div>
+    <div style="clear:both; margin-bottom:10px;"></div>
+
+    <!--INJECT BOX-->
+    <div id="injectdiv">
+        <div id="injectdivheader">
+            <header>
+                <h1 tabindex="0" class="title">INJECTS</h1>
+            </header>
+        </div>
+        <div id="something"></div>
+        <input type="button" onclick="update_ins()" value="DRAW INJECT" />
+        <input type="button" onclick="rem_ins()" value="CLEAR" />
+        <div>
+            <div id="e">
+                <img style="width:200px;" src="img/CARD_BACK_2.0_DRAGOS_GREY.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Consultant BOX-->
+    <div id="consultantdiv">
+        <div id="consultantdivheader">
+            <header>
+                <h1 tabindex="0" class="title">CONSULTANTS</h1>
+            </header>
+        </div>
+        <div id="something"></div>
+        <input type="button" onclick="update_con()" value="DRAW CONSULTANT" />
+        <input type="button" onclick="rem_con()" value="CLEAR" />
+        <div>
+            <div id="f">
+                <img style="width:200px;" src="img/CARD_BACK_2.0_DRAGOS_GREEN.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- INIT INJECT -->
+    <div id="initinject">
+        <div id="initinjectheader">
+            <header>
+                <h2 tabindex="0">Starting Condition</h2>
+            </header>
+        </div>
+        <div class="initinject" id="injectbox">
+            <button onClick="rando()">Random Scenario</button> <button onClick="customtoggle()">Custom Scenario</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Game Progress -->
+    <div id="mydiv">
+        <div id="mydivheader">
+            <header>
+                <h1 tabindex="0">GAME PROGRESS</h1>
+            </header>
+        </div>
+        <span id="button"><input type="button" onclick="roll_dice(0)" value="Roll Dice"/></span>
+        <span id="button2"><input type="button" onclick="roll_dice(3)" value="Roll Dice (+3)"/></span>
+        <span id="button3"><button onClick='addturn()'>Add Extra Turn</button></span>
+        <span id="button4"><button onClick='removeturn()'>Remove Turn</button></span>
+        <div class="dice" id="dice_box">
+            <div id="dice">
+
+            </div>
+            <div id="message"></div>
+            <div id="fails"></div>
+        </div>
+        <hr>
+        <div class="turn">TURNS REMAINING#:
+            <div id="turn">10</div>
+            <div id="turn_message"></div>
+        </div>
+
+        <div id="endgame"></div>
+    </div>
+
+    <!-- Game Progress -->
+    <div id="dicebox">
+        <div id="diceboxheader">
+            <header>
+                <h1 tabindex="0">DiceBox</h1>
+            </header>
+        </div>
+        <span id="button"><input type="button" onclick="roll_d20(0)" value="Roll D20"/></span>
+        <span id="button3"></span>
+        <div class="dice" id="dice_box">
+            <div id="d20">
+            </div>
+        </div>
+    </div>
+
+    <!-- GM Notes -->
+    <div id="gmnotes">
+        <div id="gmnotesheader">
+            <header>
+                <h1 tabindex="0">NOTES</h1>
+            </header>
+        </div>
+        <hr>
+        <textarea id="notes" rows="2" cols="13">((Type Here))
+  </textarea>
+        <div id="endgame"></div>
+    </div>
+
+
+    <!-- COUNTERS -->
+    <div id="counter1" class="counter">1</div>
+    <div id="counter2" class="counter">2</div>
+    <div id="counter3" class="counter">3</div>
+
+    <!-- HOLD COUNTER -->
+    <div id="hold1" class="xcounter">x</div>
+    <div id="hold2" class="xcounter">x</div>
+    <div id="hold3" class="xcounter">x</div>
+
+    <!-- ATTRIBUTION -->
+    <div id="copyright">
+        <a href="https://www.blackhillsinfosec.com/projects/backdoorsandbreaches">
+            <div id="bb"></div>
+        </a>
+        <a href="https://www.dragos.com/">
+            <div id="dragos"></div>
+        </a>
+        <a href="https://www.blackhillsinfosec.com/">
+            <div id="bh"></div>
+        </a>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <!-- FLIP SCRIPT-->
+    <script type="text/javascript" src="js/flip-script.js"></script>
+    <!-- CARD SCRIPT-->
+    <script type="text/javascript" src="js/card-script.js"></script>
+    <!-- DICE SCRIPT-->
+    <script type="text/javascript" src="js/dice-script.js"></script>
+    <script type="text/javascript" src="js/ui-script.js"></script>
+    <script type="text/javascript" src="js/ui-builder.js"></script>
+</body>
+
+</html>
