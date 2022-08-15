@@ -86,3 +86,9 @@ div[id^='c2_'] {
     background-color: #00FF00;
     border-radius: 15px;
 }
+
+.selected,
+.selected:hover {
+    background-color: #2196F3 !important;
+    border-radius: 15px;
+}

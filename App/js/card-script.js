@@ -1,16 +1,24 @@
 var cardlist = 'js/carddb.json'
 var GameType = 'BNB'
-var proc = []
-var init = []
-var pivot = []
-var c2 = []
-var persist = []
-var ins = []
-var con = []
-s = 0
-t = 1
-u = 0
-v = 1
+var maxproc = 4;
+
+var init;
+var pivot;
+var c2;
+var persist;
+var inits = [];
+var pivots = [];
+var c2s = [];
+var persists = [];
+
+var ins = [];
+var con = [];
+var proc = [];
+var chosenprocs = [];
+s = 0;
+t = 1;
+u = 0;
+v = 1;
 
 $(document).ready(function() {
     if (window.location.hash) {
@@ -29,12 +37,16 @@ $(document).ready(function() {
 
     //BUILD LISTS
     if (GameType == 'BNBExp') {
-        cardtype = ["proc", "init", "pivot", "c2", "persist", "ins", "con"];
+        cardtype = ["proc", "initial", "pivot", "c2", "persist", "ins", "con"];
     } else {
-        cardtype = ["proc", "init", "pivot", "c2", "persist", "ins"];
+        cardtype = ["proc", "initial", "pivot", "c2", "persist", "ins"];
     }
 
     cardtype.forEach(buildlist);
+
+    $("#estproc").on('keyup mouseup', function() {
+        maxproc = $("#estproc").val();
+    });
 });
 
 function buildlist(item) {
@@ -48,6 +60,11 @@ function buildlist(item) {
         }
 
         $.each(data, function(i, x) {
+            if (item == x.type && x.type == "initial") { inits.push({ "id": x.id, "img": x.image, "type": "ic" }) }
+            if (item == x.type && x.type == "pivot") { pivots.push({ "id": x.id, "img": x.image, "type": "pv" }) }
+            if (item == x.type && x.type == "c2") { c2s.push({ "id": x.id, "img": x.image, "type": "c2" }) }
+            if (item == x.type && x.type == "persist") { persists.push({ "id": x.id, "img": x.image, "type": "ps" }) }
+
             if (item == "proc" && x.type == "procedure") {
                 li = "<div class='" + item + "'><a href='" + x.image + "' data-lightbox='procedure" + x.id + "'><img class='procimg' src='" + x.image + "'></a></div>"
                 proc.push(li);
@@ -60,24 +77,9 @@ function buildlist(item) {
                 li = "<div class='consultant'><a href='" + x.image + "' data-lightbox='consultant" + x.id + "'><img src='" + x.image + "'></a></div>"
                 con.push(li)
             }
-            if (item == "init" && x.type == "initial") {
-                li = "<a href='" + x.image + "' data-lightbox='initial" + x.id + "'><img class='scenimg' src='" + x.image + "'></a>"
-                init.push(li)
-            }
-            if (item == "pivot" && x.type == "pivot") {
-                li = "<a href='" + x.image + "' data-lightbox='pivot" + x.id + "'><img class='scenimg' src='" + x.image + "'></a>"
-                pivot.push(li)
-            }
-            if (item == "c2" && x.type == "c2") {
-                li = "<a href='" + x.image + "' data-lightbox='c2" + x.id + "'><img class='scenimg' src='" + x.image + "'></a>"
-                c2.push(li)
-            }
-            if (item == "persist" && x.type == "persist") {
-                li = "<a href='" + x.image + "' data-lightbox='persist" + x.id + "'><img class='scenimg' src='" + x.image + "'></a>"
-                persist.push(li)
-            }
-
         });
+
+        rando();
     });
 }
 
@@ -90,27 +92,34 @@ function shuffle(a) {
 }
 
 function rando() {
-    //document.getElementById("dm_solution").innerHTML = "";
+    //Initial
+    init = shuffle(inits)[0];
+    template = "<a href='" + init.img + "' data-lightbox='initial" + init.id + "'><img class='scenimg' src='" + init.img + "'></a>"
+    document.getElementById("a").innerHTML = template;
+    document.getElementById("dma").innerHTML = template;
 
+    //Pivot
+    pivot = shuffle(pivots)[0];
+    template = "<a href='" + pivot.img + "' data-lightbox='pivot" + pivot.id + "'><img class='scenimg' src='" + pivot.img + "'></a>"
+    document.getElementById("b").innerHTML = template;
+    document.getElementById("dmb").innerHTML = template;
+
+    //C2
+    c2 = shuffle(c2s)[0];
+    template = "<a href='" + c2.img + "' data-lightbox='c2" + c2.id + "'><img class='scenimg' src='" + c2.img + "'></a>"
+    document.getElementById("c").innerHTML = template;
+    document.getElementById("dmc").innerHTML = template;
+
+    //Persist
+    persist = shuffle(persists)[0];
+    template = "<a href='" + persist.img + "' data-lightbox='persist" + persist.id + "'><img class='scenimg' src='" + persist.img + "'></a>"
+    document.getElementById("d").innerHTML = template;
+    document.getElementById("dmd").innerHTML = template;
+
+    //PROCEDURES
     shuffle(proc);
-    document.getElementById("output").innerHTML = proc.slice(0, 4).join("");
-    document.getElementById("remainder").innerHTML = proc.slice(4, proc.length).join("");
-
-    shuffle(init);
-    document.getElementById("a").innerHTML = init.slice(0, 1);
-    document.getElementById("dma").innerHTML = init.slice(0, 1);
-
-    shuffle(pivot);
-    document.getElementById("b").innerHTML = pivot.slice(0, 1);
-    document.getElementById("dmb").innerHTML = pivot.slice(0, 1);
-
-    shuffle(c2);
-    document.getElementById("c").innerHTML = c2.slice(0, 1);
-    document.getElementById("dmc").innerHTML = c2.slice(0, 1);
-
-    shuffle(persist);
-    document.getElementById("d").innerHTML = persist.slice(0, 1);
-    document.getElementById("dmd").innerHTML = persist.slice(0, 1);
+    document.getElementById("output").innerHTML = proc.slice(0, maxproc).join("");
+    document.getElementById("remainder").innerHTML = proc.slice(maxproc, proc.length).join("");
 
     //INJECTS
     randins = Object.assign([], ins);
