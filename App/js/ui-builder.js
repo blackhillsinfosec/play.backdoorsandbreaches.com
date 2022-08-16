@@ -1,6 +1,4 @@
 //TOGGLE FUNCTIONS
-remprocs = Object.assign([], proc);
-
 function customtoggle() {
     var x = document.getElementById("builder");
     if (x.style.display === "block") {
@@ -117,57 +115,35 @@ function chooseinj(id, contents) {
 }
 
 function buildprocmenu() {
-    if (remprocs.length == 0) { remprocs = Object.assign([], proc); }
-
-    //Card Selectors
     document.getElementById("proc").innerHTML = "";
-    remprocs.forEach(buildselector);
-
-    function buildselector(card, i) {
-        //console.log(i)
-        cardtile = card
-
-        //change style to fit box
-        cardtile = cardtile.replace("'procimg'", "'procimgbuild'");
-        cardtile = cardtile.replace("<a ", "<a onclick='return false;' ")
-        cardtile = cardtile.replace("data-lightbox", "data")
-
-        //console.log(card)
-        //create containing div
-        cdv = "<div id='proc_" + i + "' onclick='chooseproc(this.id, this);'>" + cardtile + "</div>"
-        document.getElementById("proc").innerHTML += cdv;
-    };
+    procs.forEach(function(card, i) {
+        var cardtile = "<a href='javascript:void(0)'><img class='procimgbuild' src='" + card.img + "'></a>"
+        document.getElementById("proc").innerHTML += "<div id='proc_" + card.id + "' class='custcard' onclick='chooseproc(\"" + card.id + "\");'>" + cardtile + "</div>";
+    });
 }
 
-function chooseproc(id, contents) {
-    console.log(id);
+function chooseproc(id) {
+    $('#proc_' + id).addClass('selected');
 
-    //fix lightbox and formatting
-    card = contents.innerHTML;
-    swap = card.replace("scenimgbuild", "scenimg");
-    swap = swap.replace("return false;", "")
-    swap = swap.replace("data", "data-lightbox")
-
-    //document.getElementById("injectbox").innerHTML = swap;
-
-    console.clear();
-    idx = id.replace("proc_", "")
-
-    if (chosenprocs.length <= maxproc) {
-        chosenprocs.push(remprocs[idx]);
-        remprocs.splice(idx, 1);
-        document.getElementById("output").innerHTML = chosenprocs.join("");
-        document.getElementById("remainder").innerHTML = remprocs.join("");
-        //boxtoggle('proc');
-    }
-    if (chosenprocs.length > maxproc) {
-        remprocs = Object.assign([], proc);
+    if (chosenprocs.length < maxproc) {
+        chosenprocs.push(id);
+    } else {
         chosenprocs = [];
-        //chosenprocs.push(proc[idx]);
-        document.getElementById("output").innerHTML = chosenprocs.join("");
-        document.getElementById("remainder").innerHTML = remprocs.join("");
+        $('.custcard').removeClass('selected');
     }
-    buildprocmenu();
+
+    document.getElementById('output').innerHTML = '';
+    document.getElementById('remainder').innerHTML = '';
+
+    procs.forEach(function(card, i) {
+        if (chosenprocs.includes(card.id)) {
+            type = 'output'
+        } else {
+            type = 'remainder'
+        }
+        template = "<div class='proc'><a href='" + card.img + "' data-lightbox='procedure" + card.id + "'><img class='procimg' src='" + card.img + "'></a></div>"
+        document.getElementById(type).innerHTML += template;
+    });
 
     return false;
 }

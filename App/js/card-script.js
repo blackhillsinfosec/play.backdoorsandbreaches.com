@@ -11,10 +11,13 @@ var pivots = [];
 var c2s = [];
 var persists = [];
 
+var proc;
+var procs = [];
+var chosenprocs = [];
+
 var ins = [];
 var con = [];
-var proc = [];
-var chosenprocs = [];
+
 s = 0;
 t = 1;
 u = 0;
@@ -36,20 +39,14 @@ $(document).ready(function() {
     document.getElementById("d").innerHTML = "<img class='full' src='img/CARD_BACK_2.0_DRAGOS_PURPLE.png'>"
 
     //BUILD LISTS
-    if (GameType == 'BNBExp') {
-        cardtype = ["proc", "initial", "pivot", "c2", "persist", "ins", "con"];
-    } else {
-        cardtype = ["proc", "initial", "pivot", "c2", "persist", "ins"];
-    }
-
-    cardtype.forEach(buildlist);
+    buildlist(GameType);
 
     $("#estproc").on('keyup mouseup', function() {
         maxproc = $("#estproc").val();
     });
 });
 
-function buildlist(item) {
+function buildlist(GameType) {
     $.getJSON(cardlist, function(h) {
         if (GameType == 'BNB') {
             data = h.BNB.data
@@ -60,20 +57,17 @@ function buildlist(item) {
         }
 
         $.each(data, function(i, x) {
-            if (item == x.type && x.type == "initial") { inits.push({ "id": x.id, "img": x.image, "type": "ic" }) }
-            if (item == x.type && x.type == "pivot") { pivots.push({ "id": x.id, "img": x.image, "type": "pv" }) }
-            if (item == x.type && x.type == "c2") { c2s.push({ "id": x.id, "img": x.image, "type": "c2" }) }
-            if (item == x.type && x.type == "persist") { persists.push({ "id": x.id, "img": x.image, "type": "ps" }) }
+            if (x.type == "initial") { inits.push({ "id": x.id, "img": x.image, "type": "ic" }) }
+            if (x.type == "pivot") { pivots.push({ "id": x.id, "img": x.image, "type": "pv" }) }
+            if (x.type == "c2") { c2s.push({ "id": x.id, "img": x.image, "type": "c2" }) }
+            if (x.type == "persist") { persists.push({ "id": x.id, "img": x.image, "type": "ps" }) }
+            if (x.type == "procedure") { procs.push({ "id": x.id, "img": x.image, "type": "proc" }) }
 
-            if (item == "proc" && x.type == "procedure") {
-                li = "<div class='" + item + "'><a href='" + x.image + "' data-lightbox='procedure" + x.id + "'><img class='procimg' src='" + x.image + "'></a></div>"
-                proc.push(li);
-            }
-            if (item == "ins" && x.type == "inject") {
+            if (x.type == "inject") {
                 li = "<div class='inject'><a href='" + x.image + "' data-lightbox='inject" + x.id + "'><img src='" + x.image + "'></a></div>"
                 ins.push(li)
             }
-            if (item == "con" && x.type == "consultant") {
+            if (x.type == "consultant") {
                 li = "<div class='consultant'><a href='" + x.image + "' data-lightbox='consultant" + x.id + "'><img src='" + x.image + "'></a></div>"
                 con.push(li)
             }
@@ -117,9 +111,18 @@ function rando() {
     document.getElementById("dmd").innerHTML = template;
 
     //PROCEDURES
-    shuffle(proc);
-    document.getElementById("output").innerHTML = proc.slice(0, maxproc).join("");
-    document.getElementById("remainder").innerHTML = proc.slice(maxproc, proc.length).join("");
+    document.getElementById('output').innerHTML = '';
+    document.getElementById('remainder').innerHTML = '';
+    proc = shuffle(procs);
+    $.each(proc, function(i, x) {
+        if (i < maxproc) {
+            type = 'output'
+        } else {
+            type = 'remainder'
+        }
+        template = "<div class='proc'><a href='" + x.img + "' data-lightbox='procedure" + x.id + "'><img class='procimg' src='" + x.img + "'></a></div>"
+        document.getElementById(type).innerHTML += template;
+    });
 
     //INJECTS
     randins = Object.assign([], ins);

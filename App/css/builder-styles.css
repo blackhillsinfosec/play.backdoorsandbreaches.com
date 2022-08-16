@@ -79,10 +79,17 @@ div[id^='c2_'] {
     height: 275px;
 }
 
+div[id^='proc_'] {
+    width: 200px;
+    float: left;
+    height: 275px;
+}
+
 #c2 div:hover,
 #ic div:hover,
 #ps div:hover,
-#pv div:hover {
+#pv div:hover,
+#proc div:hover {
     background-color: #00FF00;
     border-radius: 15px;
 }
