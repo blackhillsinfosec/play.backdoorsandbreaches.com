@@ -118,7 +118,7 @@ function buildprocmenu() {
     document.getElementById("proc").innerHTML = "";
     procs.forEach(function(card, i) {
         var cardtile = "<a href='javascript:void(0)'><img class='procimgbuild' src='" + card.img + "'></a>"
-        document.getElementById("proc").innerHTML += "<div id='proc_" + card.id + "' class='custcard' onclick='chooseproc(\"" + card.id + "\");'>" + cardtile + "</div>";
+        document.getElementById("proc").innerHTML += "<div id='proc_" + card.id + "' class='custcard proc' onclick='chooseproc(\"" + card.id + "\");'>" + cardtile + "</div>";
     });
 }
 

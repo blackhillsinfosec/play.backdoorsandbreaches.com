@@ -82,7 +82,6 @@ div[id^='c2_'] {
 div[id^='proc_'] {
     width: 200px;
     float: left;
-    height: 275px;
 }
 
 #c2 div:hover,
