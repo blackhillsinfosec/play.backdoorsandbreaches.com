@@ -649,7 +649,7 @@
         }
     ],
 
-    "red": "decks/CoreV2.2_French/CARD_BACK_FR_RED.png",
+    "red": "decks/French/CARD_BACK_FR_RED.png",
     "yellow": "decks/French/CARD_BACK_FR_YELLOW.png",
     "brown": "decks/French/CARD_BACK_FR_BROWN.png",
     "purple": "decks/French/CARD_BACK_FR_PURPLE.png",
