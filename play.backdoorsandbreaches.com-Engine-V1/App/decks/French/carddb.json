@@ -1,0 +1,661 @@
+{
+    "title": " Plus French - French",
+    "revdate": "06-22-2024",
+    "link": "https://www.antisyphontraining.com/",
+    "data" : [
+        {
+            "name" : "Tunnel HTTP",
+            "image" : "decks/French/FR_V2.2_EXP_CE_01a.png",
+            "type" : "c2",
+            "id" : "001",
+            "details" : "<a target=\"_blank\" href=\"https://www.thec2matrix.com/\">https://www.thec2matrix.com/</a>"
+        },
+        {
+            "name" : "Tunnel HTTPS",
+            "image" : "decks/French/FR_V2.2_EXP_CE_01b.png",
+            "type" : "c2",
+            "id" : "002",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com/</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1573/\">https://attack.mitre.org/techniques/T1573/</a></li><li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SILENTTRINITY\">https://github.com/byt3bl33d3r/SILENTTRINITY</a></li>"
+        },
+        {
+            "name" : "DNS comme C2",
+            "image" : "decks/French/FR_V2.2_EXP_CE_02.png",
+            "type" : "c2",
+            "id" : "003",
+            "details" : "<a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/bypassing-cylance-part-2-using-dnscat2\">https://www.blackhillsinfosec.com/bypassing-cylance-part-2-using-dnscat2</a>"
+        },
+        {
+            "name" : "Windows Backgound Intelligent Transfer Service (BITS)",
+            "image" : "decks/French/FR_V2.2_EXP_CE_03.png",
+            "type" : "c2",
+            "id" : "004",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T 1197/\">https://attack.mitre.org/techniques/T 1197/</a></li>"
+        },
+        {
+            "name" : "Gmail, X, Tumblr comme C2",
+            "image" : "decks/French/FR_V2.2_EXP_CE_04.png",
+            "type" : "c2",
+            "id" : "005",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/gcat\">https://github.com/byt3bl33d3r/gcat</a></li><li><a target=\"_blank\" href=\"https://github.com/DakotaNelson/sneaky-creeper\">https://github.com/DakotaNelson/sneaky-creeper</a></li>"
+        },
+        {
+            "name" : "Domaine-écran comme C2",
+            "image" : "decks/French/FR_V2.2_EXP_CE_05.png",
+            "type" : "c2",
+            "id" : "006",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.cobaltstrike.com\">https://www.cobaltstrike.com</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/bypass-web-proxy-filtering\">https://www.blackhillsinfosec.com/bypass-web-proxy-filtering</a></li>"
+        },
+        {
+            "name" : "Hameçonnage",
+            "image" : "decks/French/FR_V2.2_EXP_IC_01.png",
+            "type" : "initial",
+            "id" : "007",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/drk1\">https://github.com/drk1</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/how-to-phish-for-geniuses\">https://www.blackhillsinfosec.com/how-to-phish-for-geniuses</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework\">https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework</a></li>"
+        },
+        {
+            "name" : "Compromission serveur Web",
+            "image" : "decks/French/FR_V2.2_EXP_IC_02.png",
+            "type" : "initial",
+            "id" : "008",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.zaproxy.org\">https://www.zaproxy.org</a></li><li><a target=\"_blank\" href=\"https://portswigger.net/burp\">https://portswigger.net/burp</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/using-simple-burp-macros-to-automate-testing\">https://www.blackhillsinfosec.com/using-simple-burp-macros-to-automate-testing</a></li>"
+        },
+        {
+            "name" : "Accès de l'externe au nuage",
+            "image" : "decks/French/FR_V2.2_EXP_IC_03.png",
+            "type" : "initial",
+            "id" : "009",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SprayingToolkit\">https://github.com/byt3bl33d3r/SprayingToolkit</a></li><li><a target=\"_blank\" href=\"https://github.com/trufflesecurity/trufflehog\">https://github.com/trufflesecurity/trufflehog</a></li><li><a target=\"_blank\" href=\"https://github.com/ustayready/fireprox\">https://github.com/ustayready/fireprox</a></li>"
+        },
+        {
+            "name" : "Menace interne",
+            "image" : "decks/French/FR_V2.2_EXP_IC_04.png",
+            "type" : "initial",
+            "id" : "010",
+            "details" : "<a target=\"_blank\" href=\"https://americanaddictioncenters.org\">https://americanaddictioncenters.org</a>"
+        },
+        {
+            "name" : "Attaque par rafale de mots de passe",
+            "image" : "decks/French/FR_V2.2_EXP_IC_05.png",
+            "type" : "initial",
+            "id" : "011",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/vanhauser-thc/thc-hydra\">https://github.com/vanhauser-thc/thc-hydra</a></li><li><a target=\"_blank\" href=\"https://github.com/dafthack/MailSniper\">https://github.com/dafthack/MailSniper</a></li><li><a target=\"_blank\" href=\"https://github.com/arch4ngel/BruteLoops\">https://github.com/arch4ngel/BruteLoops</a></li><li><a target=\"_blank\" href=\"https://github.com/dafthack/MSOLSpray\">https://github.com/dafthack/MSOLSpray</a></li>"
+        },
+        {
+            "name" : "Relation de confiance",
+            "image" : "decks/French/FR_V2.2_EXP_IC_06.png",
+            "type" : "initial",
+            "id" : "012",
+            "details" : ""
+        },
+        {
+            "name" : "Ingénierie sociale",
+            "image" : "decks/French/FR_V2.2_EXP_IC_07.png",
+            "type" : "initial",
+            "id" : "012",
+            "details" : "<li><a target=\"_blank\" href=\"https://youtu.be/rnmcRTnTNC8\">https://youtu.be/rnmcRTnTNC8</a></li><li><a target=\"_blank\" href=\"https://youtu.be/FvhkKwHjUVg\">https://youtu.be/FvhkKwHjUVg</a></li>"
+        },
+        {
+            "name" : "Apportez votre appareil (piraté)",
+            "image" : "decks/French/FR_V2.2_EXP_IC_08.png",
+            "type" : "initial",
+            "id" : "013",
+            "details" : "<a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/pentesting-dropbox-on-steroids\">https://www.blackhillsinfosec.com/pentesting-dropbox-on-steroids</a>"
+        },
+        {
+            "name" : "Service offert à l'externe vulnérable",
+            "image" : "decks/French/FR_V2.2_EXP_IC_09.png",
+            "type" : "initial",
+            "id" : "014",
+            "details" : "<a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a>"
+        },
+        {
+            "name" : "Bourrage d'identifiants",
+            "image" : "decks/French/FR_V2.2_EXP_IC_10.png",
+            "type" : "initial",
+            "id" : "015",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/dafthack/DomainPasswordSpray\">https://github.com/dafthack/DomainPasswordSpray</a></li><li><a target=\"_blank\" href=\"https://portswigger.net/burp\">https://portswigger.net/burp</a></li>"
+        },
+        {
+            "name" : "Pots de miel actifs",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_01.png",
+            "type" : "inject",
+            "id" : "016",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd\">https://www.activecountermeasures.com/free-tools/adhd</a></li><li><a target=\"_blank\" href=\"https://canarytokens.org/generate\">https://canarytokens.org/generate</a></li>"
+        },
+        {
+            "name" : "C'était un Pentest",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_02.png",
+            "type" : "inject",
+            "id" : "017",
+            "details" : "<a target=\"_blank\" href=\"https:/www.blackhillsinfosec.com\">https:/www.blackhillsinfosec.com</a>"
+        },
+        {
+            "name" : "Données postées sur Pastebin",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_03.png",
+            "type" : "inject",
+            "id" : "018",
+            "details" : ""
+        },
+        {
+            "name" : "L'administrateur SIEM revient d'une formation Splunk",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_04.png",
+            "type" : "inject",
+            "id" : "019",
+            "details" : ""
+        },
+        {
+            "name" : "Retirer 1 carte Procédure",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_05.png",
+            "type" : "inject",
+            "id" : "020",
+            "details" : ""
+        },
+        {
+            "name" : "Gagne 1 carte Procédure",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_06.png",
+            "type" : "inject",
+            "id" : "021",
+            "details" : ""
+        },
+        {
+            "name" : "Le vétéran/plus expérimenté de l'équipe est en congé parental",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_07.png",
+            "type" : "inject",
+            "id" : "022",
+            "details" : ""
+        },
+        {
+            "name" : "Keven, le stagiaire, vient d'arrêter le système que vous analysiez",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_08.png",
+            "type" : "inject",
+            "id" : "023",
+            "details" : ""
+        },
+        {
+            "name" : "Le service juridique demande à l'équipier le plus compétent de se rendre à une réunion pour expliquer l'incident",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_09.png",
+            "type" : "inject",
+            "id" : "024",
+            "details" : ""
+        },
+        {
+            "name" : "Rafale de mots de passe",
+            "image" : "decks/French/FR_V2.2_EXP_PE_01.png",
+            "type" : "pivot",
+            "id" : "025",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/dafthack/DomainPasswordSpray\">https://github.com/dafthack/DomainPasswordSpray</a></li><li><a target=\"_blank\" href=\"https://github.com/ropnop/kerbrute\">https://github.com/ropnop/kerbrute</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/webcast-attack-tactics-5-zero-to-hero-attack\">https://www.blackhillsinfosec.com/webcast-attack-tactics-5-zero-to-hero-attack</a></li>"
+        },
+        {
+            "name" : "Kerberoasting/ASREPRoasting",
+            "image" : "decks/French/FR_V2.2_EXP_PE_02.png",
+            "type" : "pivot",
+            "id" : "026",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/GhostPack\">https://github.com/GhostPack</a></li><li><a target=\"_blank\" href=\"https://github.com/SecureAuthCorp/impacket\">https://github.com/SecureAuthCorp/impacket</a></li><li><a target=\"_blank\" href=\"https://github.com/hashcat/hashcat\">https://github.com/hashcat/hashcat</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/running-hashcat-on-ubuntu-18-04-server-with-1080ti\">https://www.blackhillsinfosec.com/running-hashcat-on-ubuntu-18-04-server-with-1080ti</a></li>"
+        },
+        {
+            "name" : "Empoisonnement du protocole de diffusion",
+            "image" : "decks/French/FR_V2.2_EXP_PE_03.png",
+            "type" : "pivot",
+            "id" : "027",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/dirkjanm/mitm6\">https://github.com/dirkjanm/mitm6</a></li><li><a target=\"_blank\" href=\"https://github.com/lgandx/Responder\">https://github.com/lgandx/Responder</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/how-to-disable-llmnr-why-you-want-to/\">https://www.blackhillsinfosec.com/how-to-disable-llmnr-why-you-want-to/</a></li>"
+        },
+        {
+            "name" : "Exploitation offensive de l'Active Directory",
+            "image" : "decks/French/FR_V2.2_EXP_PE_04.png",
+            "type" : "pivot",
+            "id" : "028",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/BloodHoundAD/BloodHound\">https://github.com/BloodHoundAD/BloodHound</a></li><li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/DeathStar\">https://github.com/byt3bl33d3r/DeathStar</a></li><li><a target=\"_blank\" href=\"https://github.com/Porchetta-Industries/CrackMapExec\">https://github.com/Porchetta-Industries/CrackMapExec</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/webcast-weaponizing-active-directory\">https://www.blackhillsinfosec.com/webcast-weaponizing-active-directory</a></li>"
+        },
+        {
+            "name" : "Bourrage d'identifiants",
+            "image" : "decks/French/FR_V2.2_EXP_PE_05.png",
+            "type" : "pivot",
+            "id" : "029",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/Exploit-install/PowerSploit\">https://github.com/Exploit-install/PowerSploit</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/domain-goodness-learned-love-ad-explorer\">https://www.blackhillsinfosec.com/domain-goodness-learned-love-ad-explorer</a></li><li><a target=\"_blank\" href=\"https:/www.blackhillsinfosec.com/abusing-exchange-mailbox-permissions-mailsniper\">https:/www.blackhillsinfosec.com/abusing-exchange-mailbox-permissions-mailsniper</a></li>"
+        },
+        {
+            "name" : "Création/modification d'un nouveau service",
+            "image" : "decks/French/FR_V2.2_EXP_PE_06.png",
+            "type" : "pivot",
+            "id" : "030",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/SecureAuthCorp/impacket\">https://github.com/SecureAuthCorp/impacket</a></li><li><a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a></li>"
+        },
+        {
+            "name" : "Escalade de privilèges", 
+            "image" : "decks/French/FR_V2.2_EXP_PE_07.png",
+            "type" : "pivot",
+            "id" : "031",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/slyd0g/DLLHijackTest\">https://github.com/slyd0g/DLLHijackTest</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/powershell-without-powershell-how-to-bypass-application-whitelisting-environment-restrictions-aV\">https://www.blackhillsinfosec.com/powershell-without-powershell-how-to-bypass-application-whitelisting-environment-restrictions-aV</a></li>"
+        },
+        {
+            "name" : "Service malicieux",
+            "image" : "decks/French/FR_V2.2_EXP_PER_01.png",
+            "type" : "persist",
+            "id" : "032",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/byt3bl33d3r/SILENTTRINITY\">https://github.com/byt3bl33d3r/SILENTTRINITY</a></li><li><a target=\"_blank\" href=\"https://learn.microsoft.com/en-us/sysinternals/\">https://learn.microsoft.com/en-us/sysinternals/</a></li>"
+        },
+        {
+            "name" : "Attaque de DLLs",
+            "image" : "decks/French/FR_V2.2_EXP_PER_02.png",
+            "type" : "persist",
+            "id" : "033",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/slyd0g/DLLHijackTest\">https://github.com/slyd0g/DLLHijackTest</a></li><li><a target=\"_blank\" href=\"https://github.com/Exploit-install/PowerSploit\">https://github.com/Exploit-install/PowerSploit</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/digging-deeper-vulnerable-windows-services\">https://www.blackhillsinfosec.com/digging-deeper-vulnerable-windows-services</a></li>"
+        },
+        {
+            "name" : "Pilote malicieux",
+            "image" : "decks/French/FR_V2.2_EXP_PER_03.png",
+            "type" : "persist",
+            "id" : "034",
+            "details" : "<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Alureon\">https://en.wikipedia.org/wiki/Alureon</a>"
+        },
+        {
+            "name" : "Ajout d'utilisateur",
+            "image" : "decks/French/FR_V2.2_EXP_PER_04.png",
+            "type" : "persist",
+            "id" : "035",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a></li><li><a target=\"_blank\" href=\"https://www.cobaltstrike.com\">https://www.cobaltstrike.com</a></li>"
+        },
+        {
+            "name" : "Dissimulation",
+            "image" : "decks/French/FR_V2.2_EXP_PER_05.png",
+            "type" : "persist",
+            "id" : "036",
+            "details" : "<li><a target=\"_blank\" href=\"https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install\">https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1546/011/\">https://attack.mitre.org/techniques/T1546/011/</a></li>"
+        },
+        {
+            "name" : "Addon malicieux",
+            "image" : "decks/French/FR_V2.2_EXP_PER_06.png",
+            "type" : "persist",
+            "id" : "037",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.kaspersky.com/blog/browser-extensions-security/20886\">https://www.kaspersky.com/blog/browser-extensions-security/20886</a></li><li><a target=\"_blank\" href=\"https://github.com/graniet/chromebackdoor\">https://github.com/graniet/chromebackdoor</a></li>"
+        },
+        {
+            "name" : "Script de connexion",
+            "image" : "decks/French/FR_V2.2_EXP_PER_07.png",
+            "type" : "persist",
+            "id" : "038",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.metasploit.com\">https://www.metasploit.com</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/backdoors-breaches-logon-scripts/\">https://www.blackhillsinfosec.com/backdoors-breaches-logon-scripts/</a></li>"
+        },
+        {
+            "name" : "Micrologiciel malicieux",
+            "image" : "decks/French/FR_V2.2_EXP_PER_08.png",
+            "type" : "persist",
+            "id" : "039",
+            "details" : "<li><a target=\"_blank\" href=\"https://threatpost.com/uefi-rootkit-sednit/140420\">https://threatpost.com/uefi-rootkit-sednit/140420</a></li><li><a target=\"_blank\" href=\"https://thehackernews.com/2020/12/trickbot-malware-gets-uefibios-bootkit.html\">https://thehackernews.com/2020/12/trickbot-malware-gets-uefibios-bootkit.html</a></li>"
+        },
+        {
+            "name" : "Fonction d'accessibilité",
+            "image" : "decks/French/FR_V2.2_EXP_PER_09.png",
+            "type" : "persist",
+            "id" : "040",
+            "details" : "<li><a target=\"_blank\" href=\"https://shop.hak5.org\">https://shop.hak5.org</a></li>"
+        },
+        {
+            "name" : "Analyse des journaux SIEM",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_01.png",
+            "type" : "procedure",
+            "id" : "041",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a></li><li><a target=\"_blank\" href=\"https:/jpcertcc.github.io/ToolAnalysisResultSheet\">https:/jpcertcc.github.io/ToolAnalysisResultSheet</a></li>"
+        },
+        {
+            "name" : "Analyse serveurs",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_02.png",
+            "type" : "procedure",
+            "id" : "042",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/sans-blue-team/DeepBlueCLI\">https://github.com/sans-blue-team/DeepBlueCLI</a></li>"
+        },
+        {
+            "name" : "Revue des journaux coupe-feu",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_03.png",
+            "type" : "procedure",
+            "id" : "043",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/philhagen/sof-elk\">https://github.com/philhagen/sof-elk</a></li>"
+        },
+        {
+            "name" : "Chasse à la cybermenace - Analyse RITA",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_04.png",
+            "type" : "procedure",
+            "id" : "044",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/\">https://www.activecountermeasures.com/free-tools/</a></li><li><a target=\"_blank\" href=\"https://securityonionsolutions.com/\">https://securityonionsolutions.com/</a></li>"
+        },
+        {
+            "name" : "Leurre informatique (Cyber Deception)",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_05.png",
+            "type" : "procedure",
+            "id" : "045",
+            "details" : "<li><a target=\"_blank\" href=\"https:/lengage.mitre.org/\">https:/lengage.mitre.org/</a></li><li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd/\">https://www.activecountermeasures.com/free-tools/adhd/</a></li>"
+        },
+        {
+            "name" : "Analyse de la solution EDR",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_06.png",
+            "type" : "procedure",
+            "id" : "046",
+            "details" : "<li><a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a></li><li><a target=\"_blank\" href=\"https:/www.elastic.co/downloads/elastic-agent\">https:/www.elastic.co/downloads/elastic-agent</a></li>"
+        },
+        {
+            "name" : "Analyse comportementale - UEBA",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_07.png",
+            "type" : "procedure",
+            "id" : "047",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/JPCERTCC/LogonTracer\">https://github.com/JPCERTCC/LogonTracer</a></li><li><a target=\"_blank\" href=\"https://openuba.org/\">https://openuba.org/</a></li>"
+        },
+        {
+            "name" : "Analyse postes",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_08.png",
+            "type" : "procedure",
+            "id" : "048",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/sans-blue-team/DeepBlueCLI\">https://github.com/sans-blue-team/DeepBlueCLI</a></li><li><a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a></li>"
+        },
+        {
+            "name" : "Isolation",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_09.png",
+            "type" : "procedure",
+            "id" : "049",
+            "details" : ""
+        },
+        {
+            "name" : "Gestion de crise",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_10.png",
+            "type" : "procedure",
+            "id" : "050",
+            "details" : ""
+        },
+        {
+            "name" : "Analyse mémoire",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_11.png",
+            "type" : "procedure",
+            "id" : "051",
+            "details" : "<li><a target=\"_blank\" href=\"https://docs.velociraptor.app/\">https://docs.velociraptor.app/</a></li><li><a target=\"_blank\" href=\"https://www.volatilityfoundation.org/\">https://www.volatilityfoundation.org/</a></li>"
+        },
+        {
+            "name" : "Absence de protection HTTP Strict Transport Security (HSTS)",
+            "image" : "decks/French/FR_V2.2_EXP_IC_E01.png",
+            "type" : "initial",
+            "id" : "052",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/droe/sslsplit\">https://github.com/droe/sslsplit</a></li><li><a target=\"_blank\" href=\"https://github.com/moxie0/sslstrip\">https://github.com/moxie0/sslstrip</a></li>"
+        },
+        {
+            "name" : "Attaque depuis la chaîne d'approvisionnement",
+            "image" : "decks/French/FR_V2.2_EXP_IC_E02.png",
+            "type" : "initial",
+            "id" : "053",
+            "details" : "<li><a target=\"_blank\" href=\"https://krebsonsecurity.com/2020/12/solarwinds-hack-could-affect-18k-customers\">https://krebsonsecurity.com/2020/12/solarwinds-hack-could-affect-18k-customers</a></li><li><a target=\"_blank\" href=\"https://www.wired.com/story/russia-solarwinds-hack-roundup\">https://www.wired.com/story/russia-solarwinds-hack-roundup</a></li>"
+        },
+        {
+            "name" : "Accès physique",
+            "image" : "decks/French/FR_V2.2_EXP_IC_E03.png",
+            "type" : "initial",
+            "id" : "054",
+            "details" : "<li><a target=\"_blank\" href=\"https://youtu.be/rnmcRTnTNC8\">https://youtu.be/rnmcRTnTNC8</a></li>"
+        },
+        {
+            "name" : "Faiblesse SMB",
+            "image" : "decks/French/FR_V2.2_EXP_PE_E04.png",
+            "type" : "pivot",
+            "id" : "055",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/Kevin-Robertson/Inveigh\">https://github.com/Kevin-Robertson/Inveigh</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/an-smb-relay-race-how-to-exploit-llmnr-and-smb-message-signing-for-fun-and-profit/\">https://www.blackhillsinfosec.com/an-smb-relay-race-how-to-exploit-llmnr-and-smb-message-signing-for-fun-and-profit/</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/webcast-group-policies-that-kill-kill-chains\">https://www.blackhillsinfosec.com/webcast-group-policies-that-kill-kill-chains</a></li>"
+        },
+        {
+            "name" : "Harponnage interne",
+            "image" : "decks/French/FR_V2.2_EXP_PE_E05.png",
+            "type" : "pivot",
+            "id" : "056",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1534\">https://attack.mitre.org/techniques/T1534</a></li>"
+        },
+        {
+            "name" : "Manipulation de jeton de session",
+            "image" : "decks/French/FR_V2.2_EXP_PE_E06.png",
+            "type" : "pivot",
+            "id" : "057",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/Exploit-install/PowerSploit\">https://github.com/Exploit-install/PowerSploit</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1134\">https://attack.mitre.org/techniques/T1134</a></li><li><a target=\"_blank\" href=\"https://pentestlab.blog/2017/04/03/token-manipulation\">https://pentestlab.blog/2017/04/03/token-manipulation</a></li>"
+        },
+        {
+            "name" : "Adresses fixes désuètes",
+            "image" : "decks/French/FR_V2.2_EXP_PE_E07.png",
+            "type" : "pivot",
+            "id" : "058",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/arch4ngel/eavesarp\">https://github.com/arch4ngel/eavesarp</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/analyzing-arp-to-discover-exploit-stale-network-address-configurations\">https://www.blackhillsinfosec.com/analyzing-arp-to-discover-exploit-stale-network-address-configurations</a></li>"
+        },
+        {
+            "name" : "Mots de passe en clair",
+            "image" : "decks/French/FR_V2.2_EXP_PE_E08.png",
+            "type" : "pivot",
+            "id" : "059",
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/SnaffCon/Snaffler\">https://github.com/SnaffCon/Snaffler</a></li><li><a target=\"_blank\" href=\"https://www.blackhillsinfosec.com/power-posing-powerops\">https://www.blackhillsinfosec.com/power-posing-powerops</a></li>"
+        },
+        {
+            "name" : "Maliciel à retardement",
+            "image" : "decks/French/FR_V2.2_EXP_PER_E09.png",
+            "type" : "persist",
+            "id" : "060",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1546/014\">https://attack.mitre.org/techniques/T1546/014</a></li><li><a target=\"_blank\" href=\"https://youtu.be/XFk-bOaT6cs\">https://youtu.be/XFk-bOaT6cs</a></li>"
+        },
+        {
+            "name" : "Porte dérobée",
+            "image" : "decks/French/FR_V2.2_EXP_PER_E10.png",
+            "type" : "persist",
+            "id" : "061",
+            "details" : "<li><a target=\"_blank\" href=\"https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury\">https://www.welivesecurity.com/2014/02/21/an-in-depth-analysis-of-linuxebury</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1554\">https://attack.mitre.org/techniques/T1554</a></li>"
+        },
+        {
+            "name" : "Manipulation de règles de courriel",
+            "image" : "decks/French/FR_V2.2_EXP_PER_E11.png",
+            "type" : "persist",
+            "id" : "062",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1137\">https://attack.mitre.org/techniques/T1137</a></li>"
+        },
+        {
+            "name" : "Actions de récupération",
+            "image" : "decks/French/FR_V2.2_EXP_PER_E12.png",
+            "type" : "persist",
+            "id" : "63",
+            "details" : "<li><a target=\"_blank\" href=\"https://kb.infobridge.com/hc/en-us/articles/207123929-Setting-Windows-Service-Recovery-options\">https://kb.infobridge.com/hc/en-us/articles/207123929-Setting-Windows-Service-Recovery-options</a></li>"
+        },
+        {
+            "name" : "Clés de registre",
+            "image" : "decks/French/FR_V2.2_EXP_PER_E13.png",
+            "type" : "persist",
+            "id" : "064",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1112\">https://attack.mitre.org/techniques/T1112</a></li>"
+        },
+        {
+            "name" : "Exfiltration via média physique",
+            "image" : "decks/French/FR_V2.2_EXP_CE_E14.png",
+            "type" : "c2",
+            "id" : "065",
+            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1052\">https://attack.mitre.org/techniques/T1052</a></li>"
+        },
+        {
+            "name" : "Appeler un Consultant",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_E15.png",
+            "type" : "procedure",
+            "id" : "066",
+            "details" : ""
+        },
+        {
+            "name" : "Revue de la sécurité physique",
+            "image" : "decks/French/FR_V2.2_EXP_PRO_E16.png",
+            "type" : "procedure",
+            "id" : "067",
+            "details" : ""
+        },
+        {
+            "name" : "Empoisonnement alimentaire",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E17.png",
+            "type" : "inject",
+            "id" : "068",
+            "details" : ""
+        },
+        {
+            "name" : "Le SIEM est hors service",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E18.png",
+            "type" : "inject",
+            "id" : "069",
+            "details" : ""
+        },
+        {
+            "name" : "Une histoire sans fin",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E19.png",
+            "type" : "inject",
+            "id" : "070",
+            "details" : ""
+        },
+        {
+            "name" : "Compromission de l'EDR",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E20.png",
+            "type" : "inject",
+            "id" : "071",
+            "details" : ""
+        },
+        {
+            "name" : "L'attaquant se moque de vous",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E21.png",
+            "type" : "inject",
+            "id" : "072",
+            "details" : ""
+        },
+        {
+            "name" : "L'horodatage est... faux",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E22.png",
+            "type" : "inject",
+            "id" : "073",
+            "details" : ""
+        },
+        {
+            "name" : "À chercher, on trouve...",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E23.png",
+            "type" : "inject",
+            "id" : "074",
+            "details" : ""
+        },
+        {
+            "name" : "Un campeur de longue date",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E24.png",
+            "type" : "inject",
+            "id" : "075",
+            "details" : ""
+        },
+        {
+            "name" : "Fait chaud ici, non ?",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E25.png",
+            "type" : "inject",
+            "id" : "076",
+            "details" : ""
+        },
+        {
+            "name" : "Abonnez-vous !",
+            "image" : "decks/French/FR_V2.2_EXP_INJ_E26.png",
+            "type" : "inject",
+            "id" : "077",
+            "details" : ""
+        },
+        {
+            "name" : "Dan Erwin",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E27.png",
+            "type" : "consultant",
+            "id" : "078",
+            "details" : ""
+        },
+        {
+            "name" : "Time Medin",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E28.png",
+            "type" : "consultant",
+            "id" : "079",
+            "details" : ""
+        },
+        {
+            "name" : "Jorge Orchilles",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E29.png",
+            "type" : "consultant",
+            "id" : "080",
+            "details" : ""
+        },
+        {
+            "name" : "Asim Qureshi",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E30.png",
+            "type" : "consultant",
+            "id" : "081",
+            "details" : ""
+        },
+        {
+            "name" : "Mikko Hypponen",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E31.png",
+            "type" : "consultant",
+            "id" : "082",
+            "details" : ""
+        },
+        {
+            "name" : "Marcus J. Carey",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E32.png",
+            "type" : "consultant",
+            "id" : "083",
+            "details" : ""
+        },
+        {
+            "name" : "Robert M. Lee",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E33.png",
+            "type" : "consultant",
+            "id" : "084",
+            "details" : ""
+        },
+        {
+            "name" : "Stéphane Nappo",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E34.png",
+            "type" : "consultant",
+            "id" : "085",
+            "details" : ""
+        },
+        {
+            "name" : "Anonymous",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E35.png",
+            "type" : "consultant",
+            "id" : "086",
+            "details" : ""
+        },
+        {
+            "name" : "Dovetail Joint",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E36.png",
+            "type" : "consultant",
+            "id" : "087",
+            "details" : ""
+        },
+        {
+            "name" : "Inconnu",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E37.png",
+            "type" : "consultant",
+            "id" : "088",
+            "details" : ""
+        },
+        {
+            "name" : "John Strand",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E38.png",
+            "type" : "consultant",
+            "id" : "089",
+            "details" : ""
+        },
+        {
+            "name" : "Kevin Mitnick - 1",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E39.png",
+            "type" : "consultant",
+            "id" : "090",
+            "details" : ""
+        },
+        {
+            "name" : "Kevin Mitnick - 2",
+            "image" : "decks/French/FR_V2.2_EXP_CON_E40.png",
+            "type" : "consultant",
+            "id" : "091",
+            "details" : ""
+        }
+    ],
+
+    "red": "decks/CoreV2.2_French/CARD_BACK_FR_RED.png",
+    "yellow": "decks/French/CARD_BACK_FR_YELLOW.png",
+    "brown": "decks/French/CARD_BACK_FR_BROWN.png",
+    "purple": "decks/French/CARD_BACK_FR_PURPLE.png",
+    "grey":   "decks/French/CARD_BACK_FR_GREY.png",
+    "green":  "decks/French/CARD_BACK_FR_GREEN.png",
+    "logo":   "img/antisyphon.png",
+    "addOnEnabled":"true"
+
+}

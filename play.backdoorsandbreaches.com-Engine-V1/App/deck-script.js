@@ -74,9 +74,13 @@ function opendeckselector() {
       {
         cardlist = "decks/DenSecure/carddb.json";
       }
-      if(selecteddeck == "Trimarc")
+      if (selecteddeck == "Trimarc")
       {
         cardlist = "decks/Trimarc/carddb.json";
+      }
+      if (selecteddeck == "French")
+      {
+        cardlist = "decks/French/carddb.json";
       }
   
       let result = $.getJSON(cardlist, function(h) {
