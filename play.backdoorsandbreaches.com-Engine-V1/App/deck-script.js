@@ -74,7 +74,7 @@ function opendeckselector() {
       {
         cardlist = "decks/DenSecure/carddb.json";
       }
-      if (selecteddeck == "Trimarc")
+      if(selecteddeck == "Trimarc")
       {
         cardlist = "decks/Trimarc/carddb.json";
       }
@@ -85,30 +85,35 @@ function opendeckselector() {
       if (selecteddeck == "French")
       {
         cardlist = "decks/French/carddb.json";
-      }
-  
-      let result = $.getJSON(cardlist, function(h) {
-              $(a).html("<img class='full' src='"+h.red+"'>");
-              $(b).html("<img class='full' src='"+h.yellow+"'>");
-              $(c).html("<img class='full' src='"+h.brown+"'>");
-              $(d).html("<img class='full' src='"+h.purple+"'>");
-  
-              $(inita).html("<img src='"+h.red+"'>");
-              $(initb).html("<img src='"+h.yellow+"'>");
-              $(initc).html("<img src='"+h.brown+"'>");
-              $(initd).html("<img src='"+h.purple+"'>");
-  
-              $(e).html("<img style='width:200px;' src='"+h.grey+"'>");
+      } 
+      try{
+        let result = $.getJSON(cardlist, function(h) {
+          $(a).html("<img class='full' src='"+h.red+"'>");
+          $(b).html("<img class='full' src='"+h.yellow+"'>");
+          $(c).html("<img class='full' src='"+h.brown+"'>");
+          $(d).html("<img class='full' src='"+h.purple+"'>");
 
-              //Update Consultant image
-              $(f).html('<img style="width:200px;" src="' + h.green +'">');
-  
-              //update logo
-              $(copyright).html("<a target='_blank' href='https://www.blackhillsinfosec.com/projects/backdoorsandbreaches'><div id='bb'></div></a><a target='_blank' href='https://www.blackhillsinfosec.com/'><div id='bh'></div></a><a target='_blank' href='"+h.link+"'><div class='sponsor' style=' background-image: url("+h.logo+");'></div></a>");
-        
-              cardData = h; //set cardData to equal the JSON, so we simply reference memory rather than download again
-            });
-            await result;
+          $(inita).html("<img src='"+h.red+"'>");
+          $(initb).html("<img src='"+h.yellow+"'>");
+          $(initc).html("<img src='"+h.brown+"'>");
+          $(initd).html("<img src='"+h.purple+"'>");
+
+          $(e).html("<img style='width:200px;' src='"+h.grey+"'>");
+
+          //Update Consultant image
+          $(f).html('<img style="width:200px;" src="' + h.green +'">');
+
+          //update logo
+          $(copyright).html("<a target='_blank' href='https://www.blackhillsinfosec.com/projects/backdoorsandbreaches'><div id='bb'></div></a><a target='_blank' href='https://www.blackhillsinfosec.com/'><div id='bh'></div></a><a target='_blank' href='"+h.link+"'><div class='sponsor' style=' background-image: url("+h.logo+");'></div></a>");
+    
+          cardData = h; //set cardData to equal the JSON, so we simply reference memory rather than download again
+        });
+        await result;
+      }
+      catch(error)
+      {
+        console.log(error);
+      }
             
         
   
