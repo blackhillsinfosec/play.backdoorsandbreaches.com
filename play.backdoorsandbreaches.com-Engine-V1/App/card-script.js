@@ -336,28 +336,42 @@ PER = 0
         //This was removed and replaced by cardData, which is stored
         //after the getJSON function in deck-script. 
         let h = cardData;
+
+        //This is needed to track the names of each card in the list. If not present, then we add it to the list
+        cardNames = [];
+
+        countID = 1;
         $.each(h.data, function(i, x) {
-          
+          console.log(countID);
 
               if (item=="proc" && x.type=="procedure") {
                   c ="procimg"
                   if (x.details==null  || x.details==""){
-                       li = "<div class='"+item+"' id='"+x.id+"'><a href='"+x.image+"' data-lightbox='procedure"+x.id+"'><img class='"+c+"' src='"+x.image+"'></a></div>"
+                       li = "<div class='"+item+"' id='"+countID+"'><a href='"+x.image+"' data-lightbox='procedure"+countID+"'><img class='"+c+"' src='"+x.image+"'></a></div>"
                      } else {
-                       li = "<div class='"+item+"' id='"+x.id+"'><a href='"+x.image+"' data-lightbox='procedure"+x.id+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a></div>"
+                       li = "<div class='"+item+"' id='"+countID+"'><a href='"+x.image+"' data-lightbox='procedure"+countID+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a></div>"
                      }
-                  proc.push(li);
+                  if (!cardNames.includes(x.name))
+                  {
+                    proc.push(li);
+                    cardNames.push(x.name);
+                  }
+                    
                  }
 
               if (item=="ins" && x.type=="inject") {
                   c="inject"
                   //console.log("inject found");
                   if (x.details==null|| x.details==""){
-                       li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='inject"+x.id+"'><img src='"+x.image+"'></a></div>"
+                       li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='inject"+countID+"'><img src='"+x.image+"'></a></div>"
                      } else {
-                       li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='inject"+x.id+"' data-title='"+x.details+"'><img src='"+x.image+"'></a></div>"
+                       li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='inject"+countID+"' data-title='"+x.details+"'><img src='"+x.image+"'></a></div>"
                      }
-                  ins.push(li)
+                     if (!cardNames.includes(x.name))
+                     {
+                       ins.push(li);
+                       cardNames.push(x.name);
+                     }
                   randins = shuffle(ins)
                   }
                   
@@ -366,38 +380,54 @@ PER = 0
               if (item=="init" && x.type=="initial") {
                   c="scenimg"
                   if (x.details==null|| x.details==""){
-                       li = "<a href='"+x.image+"' data-lightbox='initial"+x.id+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='initial"+countID+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      } else {
-                       li = "<a href='"+x.image+"' data-lightbox='initial"+x.id+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='initial"+countID+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      }
-                  init.push(li)
+                     if (!cardNames.includes(x.name))
+                     {
+                       init.push(li);
+                       cardNames.push(x.name);
+                     }
                   }
               if (item=="pivot" && x.type=="pivot") {
                   c="scenimg"
                   if (x.details==null|| x.details==""){
-                       li = "<a href='"+x.image+"' data-lightbox='pivot"+x.id+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='pivot"+countID+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      } else {
-                       li = "<a href='"+x.image+"' data-lightbox='pivot"+x.id+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='pivot"+countID+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      }
-                  pivot.push(li)
+                     if (!cardNames.includes(x.name))
+                     {
+                       pivot.push(li);
+                       cardNames.push(x.name);
+                     }
                   }
               if (item=="c2" && x.type=="c2") {
                   c="scenimg"
                   if (x.details==null|| x.details==""){
-                       li = "<a href='"+x.image+"' data-lightbox='c2"+x.id+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='c2"+countID+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      } else {
-                       li = "<a href='"+x.image+"' data-lightbox='c2"+x.id+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                       li = "<a href='"+x.image+"' data-lightbox='c2"+countID+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
                      }
-                  c2.push(li)
+                     if (!cardNames.includes(x.name))
+                     {
+                       c2.push(li);
+                       cardNames.push(x.name);
+                     }
                   }
               if (item=="persist" && x.type=="persist") {
                   c="scenimg"
                   if (x.details==null|| x.details==""){
-                      li = "<a href='"+x.image+"' data-lightbox='persist"+x.id+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                      li = "<a href='"+x.image+"' data-lightbox='persist"+countID+"'><img class='"+c+"' src='"+x.image+"'></a>"
                     } else {
-                      li = "<a href='"+x.image+"' data-lightbox='persist"+x.id+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
+                      li = "<a href='"+x.image+"' data-lightbox='persist"+countID+"' data-title='"+x.details+"'><img class='"+c+"' src='"+x.image+"'></a>"
                     }
-                  persist.push(li)
+                    if (!cardNames.includes(x.name))
+                    {
+                      persist.push(li);
+                      cardNames.push(x.name);
+                    }
                   }
 
                   if (item=="cons" && x.type=="consultant") {
@@ -405,13 +435,19 @@ PER = 0
                     
                     c="consultant"
                     if (x.details==null|| x.details==""){
-                         li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='consultant"+x.id+"'><img src='"+x.image+"'></a></div>"
+                         li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='consultant"+countID+"'><img src='"+x.image+"'></a></div>"
                        } else {
-                         li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='consultant"+x.id+"' data-title='"+x.details+"'><img src='"+x.image+"'></a></div>"
+                         li = "<div class='"+c+"'><a href='"+x.image+"' data-lightbox='consultant"+countID+"' data-title='"+x.details+"'><img src='"+x.image+"'></a></div>"
                        }
-                    cons.push(li)
+                       if (!cardNames.includes(x.name))
+                       {
+                         cons.push(li);
+                         cardNames.push(x.name);
+                       }
                     randcons = shuffle(cons)
                     }
+
+                    countID++;
 
                     
                     

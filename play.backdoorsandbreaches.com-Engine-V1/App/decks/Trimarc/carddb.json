@@ -291,7 +291,7 @@
             "details" : "<li><a target=\"_blank\" href=\"https://shop.hak5.org\">https://shop.hak5.org</a></li>"
         },
         {
-            "name" : "Security Information and Even Management (SIEM) Log Analysis",
+            "name" : "Security Information and Event Management (SIEM) Log Analysis",
             "image" : "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-0.png",
             "type" : "procedure",
             "id" : "041",
@@ -566,7 +566,7 @@
         {
             "name" : "Product Trials and Tribulation",
             "image" : "decks/Trimarc/TRIMARC_29.png",
-            "type" : "inject",
+            "type" : "inejct",
             "id" : "080",
             "details" : "<a target=\"_blank\" href=\"https://www.wired.com/story/solarwinds-hack-public-disclosure\">https://www.wired.com/story/solarwinds-hack-public-disclosure/</a>"
         },
