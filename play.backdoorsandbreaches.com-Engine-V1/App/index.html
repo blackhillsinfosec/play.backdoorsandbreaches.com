@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-  <link href="lightbox.css" rel="stylesheet" />
+  <link rel="stylesheet" href="lightbox.css" >
   
     </head>
   <div id="viewrec">
@@ -27,6 +27,7 @@
               <input type="radio" id="Trimarc" name="deck" value="Trimarc"><label for="Trimarc">Trimarc</label><br>
               <input type="radio" id="icsotV1" name="deck" value="ICSOT" ><label for="icsotV1">ICS/OTv1</label><br>
               <input type="radio" id="EverythingDeck" name="deck" value="Everything Deck" ><label for="EverythingDeck">The MEGA Deck</label><br>
+              <input type="radio" id="french" name="deck" value="French" ><label for="French">French Expansion 1.1</label><br>
               <br>
           <button type="submit" class="btn" >Submit</button>
           <button type="button" class="btn cancel" onclick="closedeckselector()">Close Deck Selector</button>
@@ -305,23 +306,23 @@
   </div>
   
   
-
+  <!-- COUNTERS -->
+  <div id="counter1" class="counter">1</div>
+  <div id="counter2" class="counter">2</div>
+  <div id="counter3" class="counter">3</div>
+  
+  <!-- HOLD COUNTER -->
+  <div id="hold1" class="xcounter">x</div>
+  <div id="hold2" class="xcounter">x</div>
+  <div id="hold3" class="xcounter">x</div>
+  
   
   <!-- ATTRIBUTION -->
    <div id="copyright">
   
    </div>
   
-      <!-- COUNTERS -->
-      <div id="counter1" class="counter" style="top: 360px; left: 240px;">1</div>
-      <div id="counter2" class="counter" style="top: 360px; left: 240px;">2</div>
-      <div id="counter3" class="counter" style="top: 360px; left: 240px;">3</div>
-      
-      <!-- HOLD COUNTER -->
-      <div id="hold1" class="xcounter" style="top: 360px; left: 320px;">x</div>
-      <div id="hold2" class="xcounter" style="top: 360px; left: 320px;">x</div>
-      <div id="hold3" class="xcounter" style="top: 360px; left: 320px;">x</div>
-      
+  
   
   <script src="lightbox.js"></script>
     <!-- DICE SCRIPT-->
@@ -348,6 +349,7 @@
 
   initDeck();
   //after the deck is initialized, we need to check the deck and modify the results to fit it
+  
 
 
   //Deck flip.js from the original code for teh add-on scenario tools
@@ -409,3 +411,4 @@ addonbacks.forEach((xc) =>
     
   
   </script>
+  
