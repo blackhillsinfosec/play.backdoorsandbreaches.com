@@ -1,7 +1,7 @@
 {
-    "title": "DenSecure",
-    "revdate": "11-8-2023",
-    "link": "https://www.wolfandco.com/services/densecure/",
+    "title": "DataDog",
+    "revdate": "06-05-2025",
+    "link": "https://www.datadoghq.com/",
     "data" : [
         {
             "name" : "Phishing",
@@ -368,235 +368,242 @@
             "details" : "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
         },
         {
-            "name" : "Cloud Event Log Analysis",
-            "image" : "decks/DenSecure/DENSECURE_1.png",
-            "type" : "procedure",
-            "id" : "052",
-            "details" : ""
-        },
-        {
-            "name" : "Permissions Audit",
-            "image" : "decks/DenSecure/DENSECURE_2.png",
+            "name" : "Application Runtime Analysis",
+            "image" : "decks/DataDog/DATADOG_01.png",
             "type" : "procedure",
             "id" : "053",
-            "details" : ""
+            "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/code-security/\">https://www.datadoghq.com/product/code-security/</a><a target=\"_blank\" href=\"https://opentelemetry.io/\">https://opentelemetry.io/</a>"
         },
         {
-            "name" : "Microsoft Direct Phishing",
-            "image" : "decks/DenSecure/DENSECURE_3.png",
-            "type" : "initial",
+            "name" : "Cloud Security Information and Event Management (SIEM) Log Analysis",
+            "image" : "decks/DataDog/DATADOG_02.png",
+            "type" : "procedure",
             "id" : "054",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.wolfandco.com/resources/blog/call-coming-inside-house-microsoft-direct-send-why-you-need-mitigate/\">https://www.wolfandco.com/resources/blog/call-coming-inside-house-microsoft-direct-send-why-you-need-mitigate/</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/cloud-siem/\">https://www.datadoghq.com/product/cloud-siem/</a>"
         },
         {
-            "name" : "Wi-Fi Guest Network Escape",
-            "image" : "decks/DenSecure/DENSECURE_4.png",
-            "type" : "initial",
+            "name" : "Cloud Identity and Entitlement Management (CIEM)",
+            "image" : "decks/DataDog/DATADOG_03.png",
+            "type" : "procedure",
             "id" : "055",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.bettercap.org/\">https://www.bettercap.org/</a></li>"
+            "details" : "<a target=\"_blank\" ></a>"
         },
         {
-            "name" : "Publicly Exposed Secret Key",
-            "image" : "decks/DenSecure/DENSECURE_5.png",
-            "type" : "initial",
+            "name" : "Workload Protection",
+            "image" : "decks/DataDog/DATADOG_04.png",
+            "type" : "procedure",
             "id" : "056",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/trufflesecurity/trufflehog\">https://github.com/trufflesecurity/trufflehog</a></li><li><a target=\"_blank\" href=\"https://trufflesecurity.com/why-security-scanning/\">https://trufflesecurity.com/why-security-scanning/</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/workload-protection/\">https://www.datadoghq.com/product/workload-protection/</a>"
         },
         {
-            "name" : "Vendor Default Credentials Attack",
-            "image" : "decks/DenSecure/DENSECURE_6.png",
-            "type" : "initial",
+            "name" : "Software Bill of Materials (SBOM) Analysis",
+            "image" : "decks/DataDog/DATADOG_05.png",
+            "type" : "procedure",
             "id" : "057",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/ihebski/DefaultCreds-cheat-sheet\">https://github.com/ihebski/DefaultCreds-cheat-sheet</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/code-security/\">https://www.datadoghq.com/product/code-security/</a>"
         },
         {
-            "name" : "Vishing",
-            "image" : "decks/DenSecure/DENSECURE_7.png",
+            "name" : "Compromised Single Sign-On (SSO) Federated Identity",
+            "image" : "decks/DataDog/DATADOG_06.png",
             "type" : "initial",
             "id" : "058",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.social-engineer.org/framework/attack-vectors/vishing\">https://www.social-engineer.org/framework/attack-vectors/vishing</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Trojan Mail",
-            "image" : "decks/DenSecure/DENSECURE_8.png",
+            "name" : "Poisoned Cloud Image Supply Chain",
+            "image" : "decks/DataDog/DATADOG_07.png",
+            "type" : "initial",
+            "id" : "058",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/DataDog/whoAMI-scanner/\">https://github.com/DataDog/whoAMI-scanner/</a>"
+        },
+        {
+            "name" : "Cloud-Native Serverless Function Compromised",
+            "image" : "decks/DataDog/DATADOG_08.png",
             "type" : "initial",
             "id" : "059",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.bleepingcomputer.com/news/security/plugx-malware-hides-on-usb-devices-to-infect-new-windows-hosts/\">https:/www.bleepingcomputer.com/news/security/plugx-malware-hides-on-usb-devices-to-infect-new-windows-hosts/</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1091/\">https://attack.mitre.org/techniques/T1091/</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "HTML Smuggling",
-            "image" : "decks/DenSecure/DENSECURE_9.png",
+            "name" : "Confused Deputy Attack",
+            "image" : "decks/DataDog/DATADOG_09.png",
             "type" : "initial",
             "id" : "060",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1027/006/\">https://attack.mitre.org/techniques/T1027/006/</a></li><li><a target=\"_blank\" href=\"https://outflank.nl/blog/2018/08/14/html-smuggling-explained/\">https://outflank.nl/blog/2018/08/14/html-smuggling-explained/</a></li>"
+            "details" : "<a target=\"_blank\" ></a>"
         },
         {
-            "name" : "Insecure Internet of Things (IoT)",
-            "image" : "decks/DenSecure/DENSECURE_10.png",
-            "type" : "pivot",
+            "name" : "Github Action Compromised",
+            "image" : "decks/DataDog/DATADOG_10.png",
+            "type" : "initial",
             "id" : "061",
-            "details" : "<li><a target=\"_blank\" href=\"https://Shodan.io/\">https://Shodan.io/</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://github.com/praetorian-inc/gato/\">https://github.com/praetorian-inc/gato</a>"
         },
         {
-            "name" : "Misconfigured Certificate Template",
-            "image" : "decks/DenSecure/DENSECURE_11.png",
-            "type" : "pivot",
+            "name" : "Backdoored Software Supply Chain",
+            "image" : "decks/DataDog/DATADOG_11.png",
+            "type" : "initial",
             "id" : "062",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.wolfandco.com/resources/blog/active-directory-certificate-services-attackers-exploit/\">https://www.wolfandco.com/resources/blog/active-directory-certificate-services-attackers-exploit/</a></li><li><a target=\"_blank\" href=\"https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf\">https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "NTLM Abuse",
-            "image" : "decks/DenSecure/DENSECURE_12.png",
-            "type" : "pivot",
+            "name" : "Cloud Application Compromised",
+            "image" : "decks/DataDog/DATADOG_12.png",
+            "type" : "initial",
             "id" : "063",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.trustedsec.com/blog/practical-attacks-against-ntlmv1/\">https://www.trustedsec.com/blog/practical-attacks-against-ntlmv1/</a></li>"
+            "details" : "<a target=\"_blank\" ></a>"
         },
         {
-            "name" : "Dumping LSASS Via Task Manager",
-            "image" : "decks/DenSecure/DENSECURE_13.png",
-            "type" : "pivot",
+            "name" : "Exposed Cloud Credentials via Unauthenticated Kubernetes Dashboard",
+            "image" : "decks/DataDog/DATADOG_13.png",
+            "type" : "initial",
             "id" : "064",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz\">https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://github.com/BishopFox/badPods/\">https://github.com/BishopFox/badPods/</a>"
         },
         {
-            "name" : "Default Administrator Credentials",
-            "image" : "decks/DenSecure/DENSECURE_14.png",
+            "name" : "Credentials Exposed in Storage Bucket",
+            "image" : "decks/DataDog/DATADOG_14.png",
             "type" : "pivot",
             "id" : "065",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T0812/\">https://attack.mitre.org/techniques/T0812/</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Decrypting LSA Secrets",
-            "image" : "decks/DenSecure/DENSECURE_15.png",
+            "name" : "Instance Takeover via User Data",
+            "image" : "decks/DataDog/DATADOG_15.png",
             "type" : "pivot",
             "id" : "066",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1003/004/\">https://attack.mitre.org/techniques/T1003/004/</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "SUID Permissions Abuse",
-            "image" : "decks/DenSecure/DENSECURE_16.png",
+            "name" : "Kubernetes Service Account PrivEsc",
+            "image" : "decks/DataDog/DATADOG_16.png",
             "type" : "pivot",
             "id" : "067",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries/\">https://www.hackingarticles.in/linux-privilege-escalation-using-suid-binaries</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1548/001/\">https://attack.mitre.org/techniques/T1548/001/</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://kubernetes.io/docs/reference/kubectl/\">https://kubernetes.io/docs/reference/kubectl/</a><a target=\"_blank\" href=\"https://github.com/quarkslab/kdigger/\">https://github.com/quarkslab/kdigger/</a>"
         },
         {
-            "name" : "MachineAccountQuota (MAQ) Abuse",
-            "image" : "decks/DenSecure/DENSECURE_17.png",
-            "type" : "persist",
+            "name" : "Instance Metadata Service (IMDS) Access",
+            "image" : "decks/DataDog/DATADOG_17.png",
+            "type" : "pivot",
             "id" : "068",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.netspi.com/blog/technical/network-penetration-testing/machineaccountquota-is-useful-sometimes/\">https://www.netspi.com/blog/technical/network-penetration-testing/machineaccountquota-is-useful-sometimes/</a></li><li><a target=\"_blank\" href=\"https://www.thehacker.recipes/ad/movement/domain-settings/machineaccountquota\">https://www.thehacker.recipes/ad/movement/domain-settings/machineaccountquota</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Group Policy Object (GPO) Modification",
-            "image" : "decks/DenSecure/DENSECURE_18.png",
-            "type" : "persist",
+            "name" : "Credential Store Compromise",
+            "image" : "decks/DataDog/DATADOG_18.png",
+            "type" : "pivot",
             "id" : "069",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/FSecureLABS/SharpGPOAbuse\">https://github.com/FSecureLABS/SharpGPOAbuse</a></li><li><a target=\"_blank\" href=\"https://adsecurity.org/?p=2716\">https://adsecurity.org/?p=2716</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Golden Ticket Attack",
-            "image" : "decks/DenSecure/DENSECURE_19.png",
-            "type" : "persist",
+            "name" : "Identity and Access Management (IAM) Policy Abuse",
+            "image" : "decks/DataDog/DATADOG_19.png",
+            "type" : "pivot",
             "id" : "070",
-            "details" : "<li><a target=\"_blank\" href=\"https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/golden-ticket\"><li><a target=\"_blank\" href=\"https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/golden-ticket</a></li><li><a target=\"_blank\" href=\"LINKHERE\">LINKHERE</a></li>"
+            "details" : "<a target=\"_blank\" href=\"https://github.com/nccgroup/PMapper/\">https://github.com/nccgroup/PMapper/</a><a target=\"_blank\" href=\"https://github.com/SpecterOps/AzureHound/\">https://github.com/SpecterOps/AzureHound/</a>"
         },
         {
-            "name" : "Screensaver Hijack",
-            "image" : "decks/DenSecure/DENSECURE_20.png",
+            "name" : "Backdoored Container Image",
+            "image" : "decks/DataDog/DATADOG_20.png",
             "type" : "persist",
             "id" : "071",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1546/002/\">https://attack.mitre.org/techniques/T1546/002/</a></li><li><a target=\"_blank\" href=\"https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/privilege-escalation/untitled-3/screensaver\">https://dmcxblue.gitbook.io/red-team-notes-2-0/red-team-techniques/privilege-escalation/untitled-3/screensaver</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "SSH Authorized Keys Modification",
-            "image" : "decks/DenSecure/DENSECURE_21.png",
+            "name" : "Additional Credential Creation",
+            "image" : "decks/DataDog/DATADOG_21.png",
             "type" : "persist",
             "id" : "072",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1098/004/\">https://attack.mitre.org/techniques/T1098/004/</a></li><li><a target=\"_blank\" href=\"https://www.infosecmatter.com/metasploit-module-library/?mm=post/linux/manage/sshkey_persistence\">https://www.infosecmatter.com/metasploit-module-library/?mm=post/linux/manage/sshkey_persistence</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Unauthorized Filesharing Utility",
-            "image" : "decks/DenSecure/DENSECURE_22.png",
-            "type" : "c2",
+            "name" : "Cloned Kubernetes Credentials",
+            "image" : "decks/DataDog/DATADOG_22.png",
+            "type" : "persist",
             "id" : "073",
-            "details" : "<li><a target=\"_blank\" href=\"https://thwack.solarwinds.com/resources/b/geek-speak/posts/shadow-it-file-sharing-and-data-security\">https://thwack.solarwinds.com/resources/b/geek-speak/posts/shadow-it-file-sharing-and-data-security</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Misuse of Remote Access Software",
-            "image" : "decks/DenSecure/DENSECURE_23.png",
-            "type" : "c2",
+            "name" : "Backdoored Role Trust Policy",
+            "image" : "decks/DataDog/DATADOG_23.png",
+            "type" : "persist",
             "id" : "074",
-            "details" : "<li><a target=\"_blank\" href=\"https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a\">https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Hosted Note Taking as C2",
-            "image" : "decks/DenSecure/DENSECURE_24.png",
+            "name" : "Living Off the Cloud as Exfil",
+            "image" : "decks/DataDog/DATADOG_24.png",
             "type" : "c2",
             "id" : "075",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/mttaggart/OffensiveNotion\">https://github.com/mttaggart/OffensiveNotion</a></li><li><a target=\"_blank\" href=\"https://rastamouse.me/externalc2-net/\">https://rastamouse.me/externalc2-net/</a></li><li><a target=\"_blank\" href=\"https://www.varonis.com/blog/power-automate-data-exfiltration\">https://www.varonis.com/blog/power-automate-data-exfiltration</a></li><li><a target=\"_blank\" href=\"https://lots-project.com/\">https://lots-project.com/</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Bluetooth as Exfil",
-            "image" : "decks/DenSecure/DENSECURE_25.png",
+            "name" : "Snapshotting Resources as Exfil",
+            "image" : "decks/DataDog/DATADOG_25.png",
             "type" : "c2",
             "id" : "076",
-            "details" : "<li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1011/001/\">https://attack.mitre.org/techniques/T1011/001/</a></li>"
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Crank Up the Pressure",
-            "image" : "decks/DenSecure/DENSECURE_26.png",
-            "type" : "inject",
+            "name" : "Software as a Service (SaaS) Tunneling Virtual Private Network (VPN) as C2",
+            "image" : "decks/DataDog/DATADOG_26.png",
+            "type" : "c2",
             "id" : "077",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Communication Infrastucture DDoS ",
-            "image" : "decks/DenSecure/DENSECURE_27.png",
+            "name" : "Undocumented Application Programming Interfaces (API)",
+            "image" : "decks/DataDog/DATADOG_27.png",
             "type" : "inject",
             "id" : "078",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Way to Plan Ahead",
-            "image" : "decks/DenSecure/DENSECURE_28.png",
+            "name" : "Attacker Stops Cloud Logging",
+            "image" : "decks/DataDog/DATADOG_28.png",
             "type" : "inject",
             "id" : "079",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Water, Water Everywhere!",
-            "image" : "decks/DenSecure/DENSECURE_29.png",
+            "name" : "Cloud Security Training",
+            "image" : "decks/DataDog/DATADOG_29.png",
             "type" : "inject",
             "id" : "080",
-            "details" : ""
+            "details" : "<a target=\"_blank\" href=\"https://stratus-red-team.cloud/\">https://stratus-red-team.cloud/</a>"
         },
         {
-            "name" : "Timber!",
-            "image" : "decks/DenSecure/DENSECURE_30.png",
+            "name" : "Instance Metadata Service Version 2 (IMDSv2) Project Complete",
+            "image" : "decks/DataDog/DATADOG_30.png",
             "type" : "inject",
             "id" : "081",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "It's a Feature, not a Bug",
-            "image" : "decks/DenSecure/DENSECURE_31.png",
+            "name" : "Supply Chain Firewall",
+            "image" : "decks/DataDog/DATADOG_31.png",
             "type" : "inject",
             "id" : "082",
-            "details" : ""
+            "details" : "<a target=\"_blank\" href=\"https://github.com/DataDog/supply-chain-firewall/\">https://github.com/DataDog/supply-chain-firewall/</a>"
         },
         {
-            "name" : "Dude...Where's My Server?",
-            "image" : "decks/DenSecure/DENSECURE_32.png",
+            "name" : "Public Storage Bucket Exposed",
+            "image" : "decks/DataDog/DATADOG_32.png",
             "type" : "inject",
             "id" : "083",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
         },
         {
-            "name" : "Executive Buy-In",
-            "image" : "decks/DenSecure/DENSECURE_33.png",
+            "name" : "Exposed Sofware as a Service (SaaS) Application Programming Interface (API) Key During Public Presentation",
+            "image" : "decks/DataDog/DATADOG_33.png",
             "type" : "inject",
             "id" : "084",
-            "details" : ""
+            "details" : "<a target=\"_blank\"></a>"
+        },
+        {
+            "name" : "Third-Party Code Library Compromised",
+            "image" : "decks/DataDog/DATADOG_34.png",
+            "type" : "inject",
+            "id" : "085",
+            "details" : "<a target=\"_blank\" href=\"https://github.com/datadog/guarddog/\">https://github.com/datadog/guarddog/</a>"
         }
     ],
 
@@ -606,6 +613,6 @@
     "purple": "img/bb-back-persist.png",
     "grey":   "img/bb-back-inject.png",
     "green":  "",
-    "logo":   "decks/DenSecure/DenSecureLogo.png"
+    "logo":   "img/datadogLogo.png"
 
 }

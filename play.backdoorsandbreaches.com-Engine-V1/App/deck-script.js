@@ -41,11 +41,18 @@ function opendeckselector() {
   //if it is null, that means it is the first time that we are entering the website, so let's just set it to the core deck
   if (selecteddeck === null)
   {
-    selecteddeck = 'CoreV22';
+    selecteddeck = 'CoreV3';
   }
       if (selecteddeck == 'CoreV1'){
           cardlist = 'decks/CoreV1/carddb.json'
           }
+      if (selecteddeck == 'CoreV3'){
+          cardlist = 'decks/CoreV3/carddb.json'
+          }
+      if (selecteddeck == "DataDog")
+      {
+        cardlist = 'decks/DataDog/carddb.json'
+      }
       if (selecteddeck == 'Expansion1-2'){
           cardlist = 'decks/CoreV2.2-Expansion/carddb.json'
           }
