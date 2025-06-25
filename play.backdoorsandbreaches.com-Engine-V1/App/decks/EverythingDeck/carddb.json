@@ -1896,9 +1896,246 @@
                 "image" : "",
                 "type" : "consultant",
                 "id" : "085",
-                "details" : "decks/"
-            }    
-              
+                "details" : ""
+            },    
+            {
+                "name" : "Application Runtime Analysis",
+                "image" : "decks/DataDog/DATADOG_01.png",
+                "type" : "procedure",
+                "id" : "053",
+                "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/code-security/\">https://www.datadoghq.com/product/code-security/</a><a target=\"_blank\" href=\"https://opentelemetry.io/\">https://opentelemetry.io/</a>"
+            },
+            {
+                "name" : "Cloud Security Information and Event Management (SIEM) Log Analysis",
+                "image" : "decks/DataDog/DATADOG_02.png",
+                "type" : "procedure",
+                "id" : "054",
+                "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/cloud-siem/\">https://www.datadoghq.com/product/cloud-siem/</a>"
+            },
+            {
+                "name" : "Cloud Identity and Entitlement Management (CIEM)",
+                "image" : "decks/DataDog/DATADOG_03.png",
+                "type" : "procedure",
+                "id" : "055",
+                "details" : "<a target=\"_blank\" ></a>"
+            },
+            {
+                "name" : "Workload Protection",
+                "image" : "decks/DataDog/DATADOG_04.png",
+                "type" : "procedure",
+                "id" : "056",
+                "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/workload-protection/\">https://www.datadoghq.com/product/workload-protection/</a>"
+            },
+            {
+                "name" : "Software Bill of Materials (SBOM) Analysis",
+                "image" : "decks/DataDog/DATADOG_05.png",
+                "type" : "procedure",
+                "id" : "057",
+                "details" : "<a target=\"_blank\" href=\"https://www.datadoghq.com/product/code-security/\">https://www.datadoghq.com/product/code-security/</a>"
+            },
+            {
+                "name" : "Compromised Single Sign-On (SSO) Federated Identity",
+                "image" : "decks/DataDog/DATADOG_06.png",
+                "type" : "initial",
+                "id" : "058",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Poisoned Cloud Image Supply Chain",
+                "image" : "decks/DataDog/DATADOG_07.png",
+                "type" : "initial",
+                "id" : "058",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/DataDog/whoAMI-scanner/\">https://github.com/DataDog/whoAMI-scanner/</a>"
+            },
+            {
+                "name" : "Cloud-Native Serverless Function Compromised",
+                "image" : "decks/DataDog/DATADOG_08.png",
+                "type" : "initial",
+                "id" : "059",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Confused Deputy Attack",
+                "image" : "decks/DataDog/DATADOG_09.png",
+                "type" : "initial",
+                "id" : "060",
+                "details" : "<a target=\"_blank\" ></a>"
+            },
+            {
+                "name" : "Github Action Compromised",
+                "image" : "decks/DataDog/DATADOG_10.png",
+                "type" : "initial",
+                "id" : "061",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/praetorian-inc/gato/\">https://github.com/praetorian-inc/gato</a>"
+            },
+            {
+                "name" : "Backdoored Software Supply Chain",
+                "image" : "decks/DataDog/DATADOG_11.png",
+                "type" : "initial",
+                "id" : "062",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Cloud Application Compromised",
+                "image" : "decks/DataDog/DATADOG_12.png",
+                "type" : "initial",
+                "id" : "063",
+                "details" : "<a target=\"_blank\" ></a>"
+            },
+            {
+                "name" : "Exposed Cloud Credentials via Unauthenticated Kubernetes Dashboard",
+                "image" : "decks/DataDog/DATADOG_13.png",
+                "type" : "initial",
+                "id" : "064",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/BishopFox/badPods/\">https://github.com/BishopFox/badPods/</a>"
+            },
+            {
+                "name" : "Credentials Exposed in Storage Bucket",
+                "image" : "decks/DataDog/DATADOG_14.png",
+                "type" : "pivot",
+                "id" : "065",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Instance Takeover via User Data",
+                "image" : "decks/DataDog/DATADOG_15.png",
+                "type" : "pivot",
+                "id" : "066",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Kubernetes Service Account PrivEsc",
+                "image" : "decks/DataDog/DATADOG_16.png",
+                "type" : "pivot",
+                "id" : "067",
+                "details" : "<a target=\"_blank\" href=\"https://kubernetes.io/docs/reference/kubectl/\">https://kubernetes.io/docs/reference/kubectl/</a><a target=\"_blank\" href=\"https://github.com/quarkslab/kdigger/\">https://github.com/quarkslab/kdigger/</a>"
+            },
+            {
+                "name" : "Instance Metadata Service (IMDS) Access",
+                "image" : "decks/DataDog/DATADOG_17.png",
+                "type" : "pivot",
+                "id" : "068",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Credential Store Compromise",
+                "image" : "decks/DataDog/DATADOG_18.png",
+                "type" : "pivot",
+                "id" : "069",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Identity and Access Management (IAM) Policy Abuse",
+                "image" : "decks/DataDog/DATADOG_19.png",
+                "type" : "pivot",
+                "id" : "070",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/nccgroup/PMapper/\">https://github.com/nccgroup/PMapper/</a><a target=\"_blank\" href=\"https://github.com/SpecterOps/AzureHound/\">https://github.com/SpecterOps/AzureHound/</a>"
+            },
+            {
+                "name" : "Backdoored Container Image",
+                "image" : "decks/DataDog/DATADOG_20.png",
+                "type" : "persist",
+                "id" : "071",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Additional Credential Creation",
+                "image" : "decks/DataDog/DATADOG_21.png",
+                "type" : "persist",
+                "id" : "072",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Cloned Kubernetes Credentials",
+                "image" : "decks/DataDog/DATADOG_22.png",
+                "type" : "persist",
+                "id" : "073",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Backdoored Role Trust Policy",
+                "image" : "decks/DataDog/DATADOG_23.png",
+                "type" : "persist",
+                "id" : "074",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Living Off the Cloud as Exfil",
+                "image" : "decks/DataDog/DATADOG_24.png",
+                "type" : "c2",
+                "id" : "075",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Snapshotting Resources as Exfil",
+                "image" : "decks/DataDog/DATADOG_25.png",
+                "type" : "c2",
+                "id" : "076",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Software as a Service (SaaS) Tunneling Virtual Private Network (VPN) as C2",
+                "image" : "decks/DataDog/DATADOG_26.png",
+                "type" : "c2",
+                "id" : "077",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Undocumented Application Programming Interfaces (API)",
+                "image" : "decks/DataDog/DATADOG_27.png",
+                "type" : "inject",
+                "id" : "078",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Attacker Stops Cloud Logging",
+                "image" : "decks/DataDog/DATADOG_28.png",
+                "type" : "inject",
+                "id" : "079",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Cloud Security Training",
+                "image" : "decks/DataDog/DATADOG_29.png",
+                "type" : "inject",
+                "id" : "080",
+                "details" : "<a target=\"_blank\" href=\"https://stratus-red-team.cloud/\">https://stratus-red-team.cloud/</a>"
+            },
+            {
+                "name" : "Instance Metadata Service Version 2 (IMDSv2) Project Complete",
+                "image" : "decks/DataDog/DATADOG_30.png",
+                "type" : "inject",
+                "id" : "081",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Supply Chain Firewall",
+                "image" : "decks/DataDog/DATADOG_31.png",
+                "type" : "inject",
+                "id" : "082",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/DataDog/supply-chain-firewall/\">https://github.com/DataDog/supply-chain-firewall/</a>"
+            },
+            {
+                "name" : "Public Storage Bucket Exposed",
+                "image" : "decks/DataDog/DATADOG_32.png",
+                "type" : "inject",
+                "id" : "083",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Exposed Sofware as a Service (SaaS) Application Programming Interface (API) Key During Public Presentation",
+                "image" : "decks/DataDog/DATADOG_33.png",
+                "type" : "inject",
+                "id" : "084",
+                "details" : "<a target=\"_blank\"></a>"
+            },
+            {
+                "name" : "Third-Party Code Library Compromised",
+                "image" : "decks/DataDog/DATADOG_34.png",
+                "type" : "inject",
+                "id" : "085",
+                "details" : "<a target=\"_blank\" href=\"https://github.com/datadog/guarddog/\">https://github.com/datadog/guarddog/</a>"
+            }
 
     ],
 
