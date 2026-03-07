@@ -69,6 +69,10 @@ function opendeckselector() {
       {
         cardlist = "decks/CloudSecurity/carddb.json";
       }
+      if (selecteddeck == "Electrical-Co-Op")
+        {
+          cardlist = "decks/Electrical-Co-Op/carddb.json";
+        }
       if (selecteddeck == "Red Canary")
       {
         cardlist = "decks/RedCanary/carddb.json";
