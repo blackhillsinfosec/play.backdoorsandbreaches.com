@@ -49,6 +49,9 @@ function opendeckselector() {
       if (selecteddeck == 'CoreV3'){
           cardlist = 'decks/CoreV3/carddb.json'
           }
+          if (selecteddeck == 'CoreV3.1'){
+            cardlist = 'decks/CoreV3.1/carddb.json'
+            }
       if (selecteddeck == "DataDog")
       {
         cardlist = 'decks/DataDog/carddb.json'
