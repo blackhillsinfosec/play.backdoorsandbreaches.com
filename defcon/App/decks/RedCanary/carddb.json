@@ -29,7 +29,7 @@
             "image" : "decks/CoreV2.2/BNB_CARDS_v2.2_CE-3.png",
             "type" : "c2",
             "id" : "004",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T 1197/\">https://attack.mitre.org/techniques/T 1197/</a></li>"
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1197/\">https://attack.mitre.org/techniques/T1197/</a></li>"
         },
         {
             "name" : "Gmail, Tumblr, Salesforce, Twitter as C2",

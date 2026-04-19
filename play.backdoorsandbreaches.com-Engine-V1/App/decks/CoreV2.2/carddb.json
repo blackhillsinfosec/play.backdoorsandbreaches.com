@@ -29,7 +29,7 @@
             "image" : "decks/CoreV2.2/BNB_CARDS_v2.2_CE-3.png",
             "type" : "c2",
             "id" : "004",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T 1197/\">https://attack.mitre.org/techniques/T 1197/</a></li>"
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/deruke/tools\">https://github.com/deruke/tools</a></li><li><a target=\"_blank\" href=\"https://attack.mitre.org/techniques/T1197/\">https://attack.mitre.org/techniques/T1197/</a></li>"
         },
         {
             "name" : "Gmail, Tumblr, Salesforce, Twitter as C2",
@@ -78,7 +78,7 @@
             "image" : "decks/CoreV2.2/BNB_CARDS_v2.2_IC-5.png",
             "type" : "initial",
             "id" : "011",
-            "details" : "<li><a target=\"_blank\" href=\"https://github.com/vanhauser-thc/thc-hydra\">https://github.com/vanhauser-thc/thc-hydra</a></li><li><a target=\"_blank\" href=\"https://github.com/dafthack/MailSniper\">https://github.com/dafthack/MailSniper</a></li><li><a target=\"_blank\" href=\"https://github.com/arch4ngel/BruteLoops\">https://github.com/arch4ngel/BruteLoops</a></li><li><a target=\"_blank\" href=\"https://github.com/dafthack/MSOLSpray\">https://github.com/dafthack/MSOLSpray</a></li>"
+            "details" : "<li><a target=\"_blank\" href=\"https://github.com/dafthack/MSOLSpray\">https://github.com/dafthack/MSOLSpray</a></li>"
         },
         {
             "name" : "Trusted Relationship",
@@ -323,7 +323,7 @@
             "image" : "decks/CoreV2.2/BNB_CARDS_v2.2_PRO-5.png",
             "type" : "procedure",
             "id" : "045",
-            "details" : "<li><a target=\"_blank\" href=\"https:/lengage.mitre.org/\">https:/lengage.mitre.org/</a></li><li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd/\">https://www.activecountermeasures.com/free-tools/adhd/</a></li>"
+            "details" : "<li><a target=\"_blank\" href=\"https://engage.mitre.org/\">https://engage.mitre.org/</a></li><li><a target=\"_blank\" href=\"https://www.activecountermeasures.com/free-tools/adhd/\">https://www.activecountermeasures.com/free-tools/adhd/</a></li>"
         },
         {
             "name" : "Endpoint Security Protection Analysis",

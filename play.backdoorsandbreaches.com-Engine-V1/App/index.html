@@ -17,10 +17,12 @@
           <form class="form-container" onsubmit="updatedeck(deck.value);">
               Available Decks: 
               <br>
-              <input type="radio" id="corev22" name="deck" value="CoreV22" ><label for="corev22">CoreV2.2</label><br>
+              <input type="radio" id="corev3.1" name="deck" value="CoreV3.1" ><label for="corev3.1">CoreV3.1</label><br>
               <input type="radio" id="spanish" name="deck" value="Spanish 1.0"><label for="spanish">Core-Spanish 1.0</label><br>
-              <input type="radio" id="expansion12" name="deck" value="Expansion1-2" ><label for="expansion12">Expansion 1.2</label><br>
+              <input type="radio" id="expansion12" name="deck" value="Expansion1-2" ><label for="expansion12">Core V3.1 plus Expansion</label><br>
               <input type="radio" id="cloudSecurity" name="deck" value="Cloud Security" ><label for="cloudSecurity">Cloud Security</label><br>
+              <input type="radio" id="Electrical-Co-Op" name="deck" value="Electrical-Co-Op" ><label for="Electrical-Co-Op">Electrical Co-Op</label><br>
+              <input type="radio" id="datadog" name="deck" value="DataDog" ><label for="datadog">DataDog</label><br>
               <input type="radio" id="huntress" name="deck" value="Huntress" ><label for="huntress">Huntress Deck</label><br>
               <input type="radio" id="redCanary" name="deck" value="Red Canary"><label for="redCanary">Red Canary</label><br>
               <input type="radio" id="DenSecure" name="deck" value="DenSecure"><label for="DenSecure">DenSecure</label><br>
@@ -86,7 +88,7 @@
       <button onclick="boxtoggle('c2');buildscenemenu('c2');">C2</button>
       <button onclick="boxtoggle('ps');buildscenemenu('ps');">Persist</button>
       |
-      <button onclick="boxtoggle('proc');buildprocmenu();">Procedures</button>
+      <button onclick="boxtoggle('proc');buildprocmenu();">Detections</button>
       <button onclick="boxtoggle('start');buildinjmenu();">Starting Cond</button>
       |
       <input type="checkbox" id="forAddOn" name="Add-On" value="false">
@@ -97,7 +99,7 @@
       <div id="pv">Pivot</div>
       <div id="c2">C2 & Exfil</div>
       <div id="ps">Persist</div>
-      <div id="proc">Procedures</div>
+      <div id="proc">Detections</div>
       <div id="start">Starting Condition</div>
   </div>
   
@@ -184,12 +186,12 @@
   <!-- PROCEDURE CARDS -->
   <header>
   <center>
-    <h1 tabindex="0" class="title">PROCEDURES</h1></header>
+    <h1 tabindex="0" class="title">DETECTIONS</h1></header>
   
-  Established Procedures: 
+  Established Detections: 
       <div class="establishedprocs" id="output"></div>
       <div style="clear:both; margin-bottom:10px;"></div>
-  Other Procedures: 
+  Other Detections: 
       <div class="otherprocs" id="remainder"></div>
   </center>
   <div style="clear:both; margin-bottom:10px;"></div>

@@ -145,7 +145,7 @@ PER = 0
         //NOTE: The custom functions of each add method are designed for the custom scenario tools.
         function addIC() {
             IC++
-              document.getElementById("addIC").innerHTML += "<div class=\"cards__single_"+IC+"\" id=\"ic_"+IC+"\"><div class=\"cards__front\"><img src=\"img/bb-back-init.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"w"+IC+"\">"+init.slice(IC,IC+1);+"</div></div></div>"
+              document.getElementById("addIC").innerHTML += "<div class=\"cards__single"+IC+"\" id=\"ic_"+IC+"\"><div class=\"cards__front\"><img src=\"img/bb-back-init.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"w"+IC+"\">"+init.slice(IC,IC+1);+"</div></div></div>"
               document.getElementById("w"+IC).innerHTML = reminit.slice(IC,IC+1);
               if (IC == 2) {
               buttIC.style.display = "none";
@@ -176,7 +176,7 @@ PER = 0
                 buttIC.style.display = "none";
                 clearIC.style.display = "inline";
                }
-              document.getElementById("addIC").innerHTML += "<div class=\"cards__single_"+IC+"\" id=\"ic_"+IC+"\"><div class=\"cards__front\"><img src=\"img/bb-back-init.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"w"+IC+"\">"+init.slice(IC,IC+1);+"</div></div></div>"
+              document.getElementById("addIC").innerHTML += "<div class=\"cards__single"+IC+"\" id=\"ic_"+IC+"\"><div class=\"cards__front\"><img src=\"img/bb-back-init.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"w"+IC+"\">"+init.slice(IC,IC+1);+"</div></div></div>"
               document.getElementById("w"+IC).innerHTML = objects;
               
              document.getElementById("solIC").innerHTML += objects;
@@ -191,7 +191,7 @@ PER = 0
         }
         function addPE() {
             PE++
-              document.getElementById("addPE").innerHTML += "<div class=\"cards__single_"+PE+"\" id=\"pe_"+PE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-pivot.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"x"+PE+"\">"+pivot.slice(PE,PE+1);+"</div></div></div>"
+              document.getElementById("addPE").innerHTML += "<div class=\"cards__single"+PE+"\" id=\"pe_"+PE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-pivot.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"x"+PE+"\">"+pivot.slice(PE,PE+1);+"</div></div></div>"
               document.getElementById("x"+PE).innerHTML = rempivot.slice(PE,PE+1);
               if (PE == 2) {
               buttPE.style.display = "none";
@@ -219,7 +219,7 @@ PER = 0
             buttPE.style.display = "none";
             clearPE.style.display = "inline";
            }
-              document.getElementById("addPE").innerHTML += "<div class=\"cards__single_"+PE+"\" id=\"pe_"+PE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-pivot.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"x"+PE+"\">"+pivot.slice(PE,PE+1);+"</div></div></div>"
+              document.getElementById("addPE").innerHTML += "<div class=\"cards__single"+PE+"\" id=\"pe_"+PE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-pivot.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"x"+PE+"\">"+pivot.slice(PE,PE+1);+"</div></div></div>"
               document.getElementById("x"+PE).innerHTML = objectsPE;
               
               document.getElementById("solPE").innerHTML += objectsPE;
@@ -234,7 +234,7 @@ PER = 0
       }
         function addCE() {
             CE++
-              document.getElementById("addCE").innerHTML += "<div class=\"cards__single_"+CE+"\" id=\"ce_"+CE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-c2.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"y"+CE+"\">"+c2.slice(CE,CE+1);+"</div></div></div>"
+              document.getElementById("addCE").innerHTML += "<div class=\"cards__single"+CE+"\" id=\"ce_"+CE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-c2.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"y"+CE+"\">"+c2.slice(CE,CE+1);+"</div></div></div>"
               document.getElementById("y"+CE).innerHTML = remc2.slice(CE,CE+1);
               if (CE == 2) {
               buttCE.style.display = "none";
@@ -263,7 +263,7 @@ PER = 0
             buttCE.style.display = "none";
             clearCE.style.display = "inline";
            }
-              document.getElementById("addCE").innerHTML += "<div class=\"cards__single_"+CE+"\" id=\"ce_"+CE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-c2.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"y"+CE+"\">"+c2.slice(CE,CE+1);+"</div></div></div>"
+              document.getElementById("addCE").innerHTML += "<div class=\"cards__single"+CE+"\" id=\"ce_"+CE+"\"><div class=\"cards__front\"><img src=\"img/bb-back-c2.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"y"+CE+"\">"+c2.slice(CE,CE+1);+"</div></div></div>"
               document.getElementById("y"+CE).innerHTML = objectsCE
               
               document.getElementById("solCE").innerHTML += objectsCE;
@@ -278,7 +278,7 @@ PER = 0
         }
         function addPER() {
             PER++
-              document.getElementById("addPER").innerHTML += "<div class=\"cards__single_"+PER+"\" id=\"per_"+PER+"\"><div class=\"cards__front\"><img src=\"img/bb-back-persist.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"z"+PER+"\">"+persist.slice(PER,PER+1);+"</div></div></div>"
+              document.getElementById("addPER").innerHTML += "<div class=\"cards__single"+PER+"\" id=\"per_"+PER+"\"><div class=\"cards__front\"><img src=\"img/bb-back-persist.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"z"+PER+"\">"+persist.slice(PER,PER+1);+"</div></div></div>"
               document.getElementById("z"+PER).innerHTML = rempersist.slice(PER,PER+1);
               if (PER == 2) {
               buttPER.style.display = "none";
@@ -307,7 +307,7 @@ PER = 0
             buttPER.style.display = "none";
             clearPER.style.display = "inline";
            }
-              document.getElementById("addPER").innerHTML += "<div class=\"cards__single_"+PER+"\" id=\"per_"+PER+"\"><div class=\"cards__front\"><img src=\"img/bb-back-persist.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"z"+PER+"\">"+persist.slice(PER,PER+1);+"</div></div></div>"
+              document.getElementById("addPER").innerHTML += "<div class=\"cards__single"+PER+"\" id=\"per_"+PER+"\"><div class=\"cards__front\"><img src=\"img/bb-back-persist.png\"></div><div class=\"cards__back\"><div class=\"init\" id=\"z"+PER+"\">"+persist.slice(PER,PER+1);+"</div></div></div>"
               document.getElementById("z"+PER).innerHTML = objectsPER;
               
               document.getElementById("solPER").innerHTML += objectsPER;
