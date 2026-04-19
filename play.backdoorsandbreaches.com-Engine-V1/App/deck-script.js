@@ -96,6 +96,10 @@ function opendeckselector() {
       {
         cardlist = "decks/EverythingDeck/carddb.json";
       }
+      if (selecteddeck == "French")
+      {
+        cardlist = "decks/French/carddb.json";
+      } 
       try{
         let result = $.getJSON(cardlist, function(h) {
           $(a).html("<img class='full' src='"+h.red+"'>");
