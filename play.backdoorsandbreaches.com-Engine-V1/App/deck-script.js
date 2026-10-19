@@ -92,6 +92,10 @@ function opendeckselector() {
       {
         cardlist = "decks/Trimarc/carddb.json";
       }
+      if(selecteddeck == "Wildcard")
+        {
+          cardlist = "decks/WildCard/carddb.json";
+        }
       if(selecteddeck == "Everything Deck")
       {
         cardlist = "decks/EverythingDeck/carddb.json";
