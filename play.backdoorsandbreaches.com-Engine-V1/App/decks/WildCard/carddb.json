@@ -370,21 +370,21 @@
         {
             "name" : "Copy-Paste-Enter Hoodwinked",
             "image" : "decks/WildCard/Wildcard_exp_1stDeck_1.png",
-            "type" : "procedure",
+            "type" : "initial",
             "id" : "053",
             "details" : "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
         },
         {
             "name" : "SIM and COSA Settings Exploitation",
             "image" : "decks/WildCard/Wildcard_exp_1stDeck_2.png",
-            "type" : "procedure",
+            "type" : "initial",
             "id" : "054",
             "details" : "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
         },
         {
             "name" : "Compromsied Refurbished Equipment",
             "image" : "decks/WildCard/Wildcard_exp_1stDeck_3.png",
-            "type" : "procedure",
+            "type" : "initial",
             "id" : "055",
             "details" : "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
         },
