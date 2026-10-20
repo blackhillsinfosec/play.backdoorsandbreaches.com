@@ -1,7 +1,7 @@
 {
     "title": "wildCard",
     "revdate": "03-25-2026",
-    "link": "https://www.antisyphontraining.com/",
+    "link": "https://wildcardgroup.be/",
     "data" : [
         {
             "name" : "Phishing",
@@ -446,7 +446,7 @@
     "purple": "decks/WildCard/CARD_BACK_NRECA_PURPLE.png",
     "grey":   "decks/WildCard/CARD_BACK_NRECA_GREY.png",
     "green":  "decks/WildCard/CARD_BACK_NRECA_GREEN.png",
-    "logo":   "img/antisyphon.png"
+    "logo":   "img/wildcard_logo.png"
 
 }
     
