@@ -96,6 +96,14 @@ function opendeckselector() {
         {
           cardlist = "decks/WildCard/carddb.json";
         }
+      if(selecteddeck == "Glueckkanja")
+      {
+        cardlist = "decks/Glueckkanja/carddb.json";
+      }
+      if(selecteddeck == "NGO-ISAC")
+      {
+        cardlist = "decks/NGO-ISAC/carddb.json";
+      }
       if(selecteddeck == "Everything Deck")
       {
         cardlist = "decks/EverythingDeck/carddb.json";

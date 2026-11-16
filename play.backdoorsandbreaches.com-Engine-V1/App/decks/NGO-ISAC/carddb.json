@@ -1,0 +1,617 @@
+{
+    "title": "Talos & NGO-ISAC Expansion",
+    "revdate": "11-13-2026",
+    "link": "https://ngoisac.org/",
+    "data": [
+        {
+            "name": "Phishing",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_01.png",
+            "type": "initial",
+            "id": "001",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Compromised Web Server",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_02.png",
+            "type": "initial",
+            "id": "002",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Unauthorized Cloud Access",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_03.png",
+            "type": "initial",
+            "id": "003",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Insider Threat",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_04.png",
+            "type": "initial",
+            "id": "004",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "External Password Spray",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_05.png",
+            "type": "initial",
+            "id": "005",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Compromised Trusted Relationship",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_06.png",
+            "type": "initial",
+            "id": "006",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Social Engineering",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_07.png",
+            "type": "initial",
+            "id": "007",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Bring Your Own (Exploited) Device",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_08.png",
+            "type": "initial",
+            "id": "008",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Exploited External Service",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_09.png",
+            "type": "initial",
+            "id": "009",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Credential Stuffing",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_10.png",
+            "type": "initial",
+            "id": "010",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Internal Password Spray",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_11.png",
+            "type": "pivot",
+            "id": "011",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Kerberoasting",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_12.png",
+            "type": "pivot",
+            "id": "012",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Broadcast/Multicast Protocol Poisoning",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_13.png",
+            "type": "pivot",
+            "id": "013",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Weaponizing Active Directory",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_14.png",
+            "type": "pivot",
+            "id": "014",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Credential Harvesting",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_15.png",
+            "type": "pivot",
+            "id": "015",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "New Service Creation/Modification",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_16.png",
+            "type": "pivot",
+            "id": "016",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Local Pivilege Escalation (LPE)",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_17.png",
+            "type": "pivot",
+            "id": "017",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Malicious Service",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_18.png",
+            "type": "persist",
+            "id": "018",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Dynamic Link Library (DLL) Hijacking",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_19.png",
+            "type": "persist",
+            "id": "019",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Malicious Driver",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_20.png",
+            "type": "persist",
+            "id": "020",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "New User Added",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_21.png",
+            "type": "persist",
+            "id": "021",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Application Shiming",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_22.png",
+            "type": "persist",
+            "id": "022",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Malicious Browser Plugins",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_23.png",
+            "type": "persist",
+            "id": "023",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Logon Scripts",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_24.png",
+            "type": "persist",
+            "id": "024",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Malicious Firmware",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_25.png",
+            "type": "persist",
+            "id": "025",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Accessibility Features",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_26.png",
+            "type": "persist",
+            "id": "026",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "HTTP as Exfil",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_27.png",
+            "type": "c2",
+            "id": "027",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "HTTPS as Exfil",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_28.png",
+            "type": "c2",
+            "id": "028",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Domain Name System (DNS) as C2",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_29.png",
+            "type": "c2",
+            "id": "029",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Background Intelligent Transfer Service Bits (BITS) as Exfil",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_30.png",
+            "type": "c2",
+            "id": "030",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Cloud-Based Services as Exfil",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_31.png",
+            "type": "c2",
+            "id": "031",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Domaining Fronting as C2",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_32.png",
+            "type": "c2",
+            "id": "032",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Server Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_33.png",
+            "type": "procedure",
+            "id": "033",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Security Information and Event Management (SIEM) Log Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_34.png",
+            "type": "procedure",
+            "id": "034",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Firewall Log Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_35.png",
+            "type": "procedure",
+            "id": "035",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Network Threat Hunting",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_36.png",
+            "type": "procedure",
+            "id": "036",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Active Defense and Cyber Deception",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_37.png",
+            "type": "procedure",
+            "id": "037",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Endpoint Security Protection Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_38.png",
+            "type": "procedure",
+            "id": "038",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "User and Entity Behavior Analytics (UEBA)",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_39.png",
+            "type": "procedure",
+            "id": "039",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Endpoint Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_40.png",
+            "type": "procedure",
+            "id": "040",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Isolation",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_41.png",
+            "type": "procedure",
+            "id": "041",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Crisis Management",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_42.png",
+            "type": "procedure",
+            "id": "042",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Memory Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_43.png",
+            "type": "procedure",
+            "id": "043",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Cloud Event Log Analysis",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_44.png",
+            "type": "procedure",
+            "id": "044",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Permissions Audit",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_45.png",
+            "type": "procedure",
+            "id": "045",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "False Alarm: It Was a Penetration Test",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_46.png",
+            "type": "inject",
+            "id": "046",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Data Uploaded to Pastebin",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_47.png",
+            "type": "inject",
+            "id": "047",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Analyst Returns from Incident Response Training",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_48.png",
+            "type": "inject",
+            "id": "048",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Policy? What Policy?",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_49.png",
+            "type": "inject",
+            "id": "049",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Luck of The SOC",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_50.png",
+            "type": "inject",
+            "id": "050",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Bobby the Intern Kills the System You are Reviewing",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_51.png",
+            "type": "inject",
+            "id": "051",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Legal takes Your Most Skilled Handler into a Meeting to Explain the Incident",
+            "image": "decks/CoreV3.1/BNB_CARDS_v3.1_52.png",
+            "type": "inject",
+            "id": "052",
+            "details": "<a target=\"_blank\" href=\"https://backdoorsandbreaches.com/coredeck/v3/\">https://backdoorsandbreaches.com/coredeck/v3/</a>"
+        },
+        {
+            "name": "Malicious Insider",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_01.png",
+            "type": "initial",
+            "id": "053",
+            "details": ""
+        },
+        {
+            "name": "Failure to Wipe",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_02.png",
+            "type": "initial",
+            "id": "054",
+            "details": ""
+        },
+        {
+            "name": "Typosquatting",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_03.png",
+            "type": "initial",
+            "id": "055",
+            "details": ""
+        },
+        {
+            "name": "Forcefully Confiscated",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_04.png",
+            "type": "initial",
+            "id": "056",
+            "details": ""
+        },
+        {
+            "name": "Member of Staff Arrested",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_05.png",
+            "type": "initial",
+            "id": "057",
+            "details": ""
+        },
+        {
+            "name": "Shared Network Compromise",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_06.png",
+            "type": "initial",
+            "id": "058",
+            "details": ""
+        },
+        {
+            "name": "Mobile Malware",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_07.png",
+            "type": "initial",
+            "id": "059",
+            "details": ""
+        },
+        {
+            "name": "Locally Developed App",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_08.png",
+            "type": "initial",
+            "id": "060",
+            "details": ""
+        },
+        {
+            "name": "Compromised Shared Resource",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_09.png",
+            "type": "initial",
+            "id": "061",
+            "details": ""
+        },
+        {
+            "name": "WiFi Woes",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_10.png",
+            "type": "initial",
+            "id": "062",
+            "details": ""
+        },
+        {
+            "name": "SATCOMMS as Exfil",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_11.png",
+            "type": "c2",
+            "id": "063",
+            "details": ""
+        },
+        {
+            "name": "Shadow IT",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_12.png",
+            "type": "persist",
+            "id": "064",
+            "details": ""
+        },
+        {
+            "name": "Integrated Risk Management",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_13.png",
+            "type": "procedure",
+            "id": "065",
+            "details": ""
+        },
+        {
+            "name": "Phone a Friend",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_14.png",
+            "type": "procedure",
+            "id": "066",
+            "details": ""
+        },
+        {
+            "name": "Cyber Insurance",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_15.png",
+            "type": "procedure",
+            "id": "067",
+            "details": ""
+        },
+        {
+            "name": "Tabletop Exercise",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_16.png",
+            "type": "inject",
+            "id": "068",
+            "details": ""
+        },
+        {
+            "name": "Persona Non Grata",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_17.png",
+            "type": "inject",
+            "id": "069",
+            "details": ""
+        },
+        {
+            "name": "Data Knows Borders",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_18.png",
+            "type": "inject",
+            "id": "070",
+            "details": ""
+        },
+        {
+            "name": "Nervous Executive",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_19.png",
+            "type": "inject",
+            "id": "071",
+            "details": ""
+        },
+        {
+            "name": "Donors are Worried",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_20.png",
+            "type": "inject",
+            "id": "072",
+            "details": ""
+        },
+        {
+            "name": "In My Last Place",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_21.png",
+            "type": "inject",
+            "id": "073",
+            "details": ""
+        },
+        {
+            "name": "Government Arm Twist",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_22.png",
+            "type": "inject",
+            "id": "074",
+            "details": ""
+        },
+        {
+            "name": "NGO-Hijack",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_23.png",
+            "type": "inject",
+            "id": "075",
+            "details": ""
+        },
+        {
+            "name": "Office Seized",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_24.png",
+            "type": "inject",
+            "id": "076",
+            "details": ""
+        },
+        {
+            "name": "Did You Order a Pizza?",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_25.png",
+            "type": "inject",
+            "id": "077",
+            "details": ""
+        },
+        {
+            "name": "Cyber Insurance Inject",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_26.png",
+            "type": "inject",
+            "id": "078",
+            "details": ""
+        },
+        {
+            "name": "Consortium of Cybersecurity Clinics",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_27.png",
+            "type": "consultant",
+            "id": "079",
+            "details": "<li><a target=\"_blank\" href=\"https://cybersecurityclinics.org/\">https://cybersecurityclinics.org/</a></li>"
+        },
+        {
+            "name": "Access Now Digital Security Helpline",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_28.png",
+            "type": "consultant",
+            "id": "080",
+            "details": "<li><a target=\"_blank\" href=\"https://www.accessnow.org/help/\">https://www.accessnow.org/help/</a></li>"
+        },
+        {
+            "name": "RASI Fund",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_29.png",
+            "type": "consultant",
+            "id": "081",
+            "details": "<li><a target=\"_blank\" href=\"mailto:rasifund@proton.me\">rasifund@proton.me</a></li>"
+        },
+        {
+            "name": "Secure IT Forward x Yubico",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_30.png",
+            "type": "consultant",
+            "id": "082",
+            "details": "<li><a target=\"_blank\" href=\"https://www.yubico.com/secure-it-forward/\">https://www.yubico.com/secure-it-forward/</a></li>"
+        },
+        {
+            "name": "Cloudflare Project Galileo",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_31.png",
+            "type": "consultant",
+            "id": "083",
+            "details": "<li><a target=\"_blank\" href=\"https://www.cloudflare.com/galileo/\">https://www.cloudflare.com/galileo/</a></li>"
+        },
+        {
+            "name": "Protect.NGO",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_32.png",
+            "type": "consultant",
+            "id": "084",
+            "details": "<li><a target=\"_blank\" href=\"https://protect.ngo\">https://protect.ngo</a></li>"
+        },
+        {
+            "name": "Cisco Talos Incident Response",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_33.png",
+            "type": "consultant",
+            "id": "085",
+            "details": "<li><a target=\"_blank\" href=\"https://talosintelligence.com/incident_response\">https://talosintelligence.com/incident_response</a></li>"
+        },
+        {
+            "name": "NGO-ISAC",
+            "image": "decks/NGO-ISAC/BNB_NGOISAC_34.png",
+            "type": "consultant",
+            "id": "086",
+            "details": "<li><a target=\"_blank\" href=\"https://ngoisac.org/\">https://ngoisac.org/</a></li>"
+        }
+    ],
+    "red": "decks/NGO-ISAC/CARD_BACK_RED.png",
+    "purple": "decks/NGO-ISAC/CARD_BACK_PURPLE.png",
+    "brown": "decks/NGO-ISAC/CARD_BACK_BROWN.png",
+    "yellow": "decks/NGO-ISAC/CARD_BACK_YELLOW.png",
+    "grey": "decks/NGO-ISAC/CARD_BACK_GREY.png",
+    "green": "decks/NGO-ISAC/CARD_BACK_GREEN.png",
+    "logo": "decks/NGO-ISAC/logo.png",
+    "addOnEnabled": "true"
+}
